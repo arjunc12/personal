@@ -1,0 +1,2147 @@
+<?xml version="1.0"?>
+<fujaba_export xmlns:xlink="http://www.w3.org/1999/xlink">
+    <diagram>
+        <object id="yxsb5#B2">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagram::name">
+                <value>ClassDiagram1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#83</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#34</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#B4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#D4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#45</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#85</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#F5</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#36</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#A6</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#17</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#97</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#B7</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#28</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#B8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#49</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#8A</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#7B</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#EB</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#6C</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#FC</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#BD</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#2E</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#3F</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#021</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#221</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#D21</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#941</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#B51</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#061</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#E61</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#C71</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#381</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#581</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>yxsb5#981</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#142</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#942</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#352</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#462</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#A62</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#703</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#113</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#B13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#C13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#323</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#033</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClassDiagram::elements">
+                <value>NA-vT#233</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#033">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#323</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>NA-vT#703</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#323">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>NA-vT#623</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>NA-vT#423</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#033</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#233</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Main</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>NA-vT#523</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#233">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#323</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>NA-vT#113</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#113">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>NA-vT#413</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>NA-vT#213</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#B13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>CommandLineParser</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#233</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>NA-vT#313</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#213">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>CommandLineParser</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>NA-vT#113</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#313">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>commandLine</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#92">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#F2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#54</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#D8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#B41</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#261</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>yxsb5#071</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>NA-vT#903</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>NA-vT#313</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>NA-vT#523</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>GLcL8#C83</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::packages">
+                <value>GLcL8#D93</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value/>
+            </attribute>
+        </object>
+        <object id="NA-vT#523">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>solPicker</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#903">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>solPickerGUI</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#071">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>ucsc</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#261">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>ensembl</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#54">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>filter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#B41">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>blast</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#D8">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>job</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#F2">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLPackage</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::name">
+                <value>xmlParser</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLPackage::parent">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#B13">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#113</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#83</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#83">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#A3</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#93</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::methods">
+                <value>NA-vT#E33</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#BD</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>XMLParser</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#B13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#C13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#F2</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#C13">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#703</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#83</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#703">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>NA-vT#A03</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>NA-vT#803</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#C13</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>solPickerGUI</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#033</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>NA-vT#903</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#803">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>solPickerGUI</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>NA-vT#703</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#E33">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLMethod</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLMethod::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLMethod::static">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLMethod::name">
+                <value>parse</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLMethod::parent">
+                <value>yxsb5#83</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLMethod::resultType">
+                <value>yxsb5#51</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#51">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLBaseType</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLBaseType::progLangType">
+                <value>void</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLBaseType::name">
+                <value>Void</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#93">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>XMLParser</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#83</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#BD">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#83</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#B8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#B8">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#E8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#C8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#021</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#221</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Job</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#BD</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#D21</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#021">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#B8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#2E</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#2E">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#4E</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#3E</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Configuration</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#021</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#3E">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Configuration</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#2E</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#221">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#B8</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#FC</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#FC">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#1D</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#0D</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Query</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#221</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#0D">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Query</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#FC</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#C8">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Job</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#B8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#D21">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#49</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#B8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#49">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#69</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#59</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#EB</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#D21</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#381</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#462</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>JobFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#462">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#49</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>NA-vT#942</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#942">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>NA-vT#B42</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>NA-vT#A42</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#352</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>RangeFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#462</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#352">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#942</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>NA-vT#142</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#142">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>NA-vT#342</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>NA-vT#242</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>NA-vT#A62</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Range</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#352</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#242">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Range</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>NA-vT#142</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#A62">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>NA-vT#142</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#C71</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#C71">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#E71</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#D71</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#581</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#981</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>true</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Domain</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#381</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>NA-vT#A62</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#92</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#381">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#49</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#C71</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#581">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#C71</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#E61</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#E61">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#171</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#F61</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>GetUCSCDna</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#581</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#071</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#F61">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>GetUCSCDna</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#E61</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#981">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#C71</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#061</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#061">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#361</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#161</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>GetEnsembleDNA</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#981</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#261</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#161">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>GetEnsembleDNA</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#061</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#D71">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Domain</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#C71</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#A42">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>RangeFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>NA-vT#942</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#59">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>JobFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#49</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#EB">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#49</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#7B</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#7B">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#9B</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#8B</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#6C</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>ParseSequence</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#EB</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#6C">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#7B</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#8A</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#8A">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#AA</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#9A</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#3F</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Oligo</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#6C</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::statechart">
+                <value>GLcL8#5B3</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#D8</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#3F">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#8A</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#D2">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#03</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#E2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#B4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#45</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#F5</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#A6</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#97</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#28</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>true</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>Filter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#3F</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#28">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#B7</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#B7">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#D7</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#C7</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>NCountFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#28</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#C7">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>NCountFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#B7</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#45">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#D4</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#D4">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#F4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#E4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>EnzymeFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#45</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#E4">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>EnzymeFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#D4</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#97">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#17</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#17">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#37</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#27</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>LowerCaseFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#97</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#27">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>LowerCaseFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#17</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#A6">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#36</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#36">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#56</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#46</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>GCFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#A6</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#46">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>GCFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#36</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#B4">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#34</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#34">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#64</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#44</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSuperclass">
+                <value>yxsb5#B51</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>BlastFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#B4</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#44">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>BlastFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#34</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#B51">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#34</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#941</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#941">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#C41</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#A41</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>BlastFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#B51</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#B41</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#A41">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>BlastFactory</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#941</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#E2">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Filter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#D2</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#F5">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLGeneralization</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::superclass">
+                <value>yxsb5#D2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLDiagramItem::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLGeneralization::subclass">
+                <value>yxsb5#85</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#85">
+            <class>de.uni_paderborn.fujaba.uml.structure.UMLClass</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.asg.ASGElement::unparseInformations">
+                <reference>yxsb5#B2</reference>
+                <value>yxsb5#A5</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::displayLevel">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::visibility">
+                <value>1</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::file">
+                <value>yxsb5#95</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::abstract">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::defaultIcon">
+                <value/>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLDeclaration::parsed">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::diagrams">
+                <value>yxsb5#B2</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::name">
+                <value>FailScoreFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::revSubclass">
+                <value>yxsb5#F5</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.structure.UMLClass::declaredInPackage">
+                <value>yxsb5#54</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#95">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>FailScoreFilter</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#85</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#9A">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Oligo</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#8A</value>
+            </attribute>
+        </object>
+        <object id="yxsb5#8B">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>ParseSequence</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>yxsb5#7B</value>
+            </attribute>
+        </object>
+        <object id="NA-vT#423">
+            <class>de.uni_paderborn.fujaba.uml.common.UMLFile</class>
+            <pluginId>fujaba.core</pluginId>
+            <classLoader>de.uni_paderborn.lib.classloader.UPBClassLoader@e070c0[id=fujaba.core]</classLoader>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLIncrement::assertInUnitTest">
+                <value>false</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::name">
+                <value>Main</value>
+            </attribute>
+            <attribute name="de.uni_paderborn.fujaba.uml.common.UMLFile::contains">
+                <value>NA-vT#323</value>
+            </attribute>
+        </object>
+    </diagram>
+</fujaba_export>

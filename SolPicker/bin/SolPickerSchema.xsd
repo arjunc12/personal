@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/SolPickerSchema"
+	xmlns:tns="http://www.example.org/SolPickerSchema" elementFormDefault="unqualified">
+<!-- $Id: SolPickerSchema.xsd,v 1.33 2009/09/23 23:55:09 tizatt Exp $ -->
+<!-- This schema defines the grammar for the input and output XML. It is enforced when the XML is parsed. -->
+	<element name="SolPicker">
+		<complexType>
+			<sequence>
+				<element name="oligoCount" type="int" minOccurs="0" maxOccurs="unbounded"/>
+				<element name="Query" minOccurs="1" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="oligoLength" type="int" maxOccurs="1" minOccurs="1" default="60"/>
+							<element name="oligoDistance" type="int" maxOccurs="1" minOccurs="0" default="60" />
+							<element name="Domain">
+								<complexType>
+									<choice>
+										<element name="Ensembl">
+											<complexType>
+												<sequence>
+													<element
+														name="Organism" maxOccurs="1" minOccurs="0"
+														default="Homo_sapien">
+														<simpleType>
+															<restriction
+																base="string">
+																<minLength
+																	value="1">
+																</minLength>
+															</restriction>
+														</simpleType>
+													</element>
+													<element
+														name="Chromosome" maxOccurs="1" minOccurs="1">
+														<simpleType>
+															<restriction
+																base="string">
+																<minLength
+																	value="1">
+																</minLength>
+															</restriction>
+														</simpleType>
+													</element>
+													<element name="startPosition" type="int" maxOccurs="1" minOccurs="1" />
+													<element name="endPosition" type="int" maxOccurs="1" minOccurs="1" />
+												</sequence>
+											</complexType>
+										</element>
+										<element name="UCSC">
+											<complexType>
+												<sequence>
+													<element
+														name="Organism" default="hg18">
+														<simpleType>
+															<restriction
+																base="string">
+																<minLength
+																	value="1">
+																</minLength>
+															</restriction>
+														</simpleType>
+													</element>
+													<element
+														name="Chromosome" maxOccurs="1" minOccurs="1">
+														<simpleType>
+															<restriction
+																base="string">
+																<minLength
+																	value="1">
+																</minLength>
+															</restriction>
+														</simpleType>
+													</element>
+													<element name="startPosition" type="int" maxOccurs="1" minOccurs="1" />
+													<element name="endPosition" type="int" maxOccurs="1" minOccurs="1" />
+													<element name="Padding5" type="int" maxOccurs="1" default="0"/>
+													<element name="Padding3" type="int" maxOccurs="1" default="0"/>
+												</sequence>
+											</complexType>
+										</element>
+									</choice>
+								</complexType>
+							</element>
+						</sequence>
+						<attribute name="QueryName" type="ID" use="required">
+						</attribute>
+					</complexType>
+					<unique name="QueryName">
+						<selector xpath="Query"/>
+						<field xpath="@QueryName"/>
+					</unique>
+				</element>
+				<element name="Configuration" minOccurs="1" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="Filter" minOccurs="1" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="Parameter" minOccurs="1" maxOccurs="unbounded">
+											<complexType>
+												<attribute
+													name="Constraint">
+													<simpleType>
+														<restriction
+															base="string">
+															<minLength
+																value="1">
+															</minLength>
+														</restriction>
+													</simpleType>
+												</attribute>
+												<attribute
+													name="Value">
+													<simpleType>
+														<restriction
+															base="string">
+															<minLength
+																value="1">
+															</minLength>
+														</restriction>
+													</simpleType>
+												</attribute>
+											</complexType>
+										</element>							
+									</sequence>
+									<attribute name="Type" type="string" use="required"/>
+								</complexType>
+							</element>			
+						</sequence>
+						<attribute name="ConfigID" type="ID" use="required">
+						</attribute>
+					</complexType>
+					<unique name="ConfigurationID">
+						<selector xpath="Configuration"/>
+						<field xpath="@ConfigID"/>
+					</unique>
+				</element>				
+				<element name="Job" minOccurs="1" maxOccurs="unbounded">
+					<complexType>
+						<attribute name="JobID" type="int" use="required">
+						</attribute>
+						<attribute name="QueryName" type="IDREF" use="required">
+						</attribute>
+						<attribute name="ConfigID" type="IDREF" use="required">
+						</attribute>
+					</complexType>
+					<unique name="JobID">
+						<selector xpath="Job"/>
+						<field xpath="@JobID"/>
+					</unique>
+				</element>			
+			</sequence>
+		</complexType>
+	</element>
+</schema>
+
+
+

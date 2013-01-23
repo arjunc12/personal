@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:SolPicker xmlns:tns="http://www.example.org/SolPickerSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/SolPickerSchema SolPickerSchema.xsd ">
+  <Query QueryName="test">
+    <oligoLength>60</oligoLength>
+    <Domain>
+      <Ensembl>
+        <Chromosome>3</Chromosome>
+        <startPosition>65000</startPosition>
+        <endPosition>65100</endPosition>
+      </Ensembl>
+    </Domain>
+  </Query>
+  <Configuration ConfigID="name">
+    <Filter Type="lowercase">
+      <Parameter Constraint = "max" Value = "30"/> 
+    </Filter>
+  </Configuration>
+  <Job ConfigID="name" JobID="0" QueryName="test"/>
+</tns:SolPicker>

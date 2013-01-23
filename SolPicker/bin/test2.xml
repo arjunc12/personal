@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SolPicker xmlns="http://www.example.org/SolPickerSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/SolPickerSchema SolPickerSchema.xsd ">
+  <Query QueryName="test2">
+    <oligoLength>100</oligoLength>
+    <oligoDistance>1</oligoDistance>
+    <Domain>
+      <UCSC>
+        <Organism>hg18</Organism>
+        <Chromosome>3</Chromosome>
+        <startPosition>0</startPosition>
+        <endPosition>0</endPosition>
+        <Padding5>0</Padding5>
+        <Padding3>0</Padding3>
+      </UCSC>
+    </Domain>
+  </Query>
+  <Configuration ConfigID="3">
+    <Filter Type="lowercase">
+      <Parameter Constraint="max" Value="5"/>
+    </Filter>
+  </Configuration>
+  <Job ConfigID="3" JobID="1" QueryName="test2"/>
+</SolPicker>

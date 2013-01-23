@@ -1,0 +1,16 @@
+ensemblTest
+filtersTest
+jobTest
+ncbi.blast
+queryFactoryTest
+server
+server.ensembl
+server.ucsc
+serverTest
+solPicker
+solPicker.filters
+solPicker.job
+solPicker.solpicker_gui
+ucscTest
+wswu.blast
+xmlTest

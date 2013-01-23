@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SolPicker xmlns="http://www.example.org/SolPickerSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/SolPickerSchema SolPickerSchema.xsd ">
+<Query QueryName="1">
+<oligoLength>60</oligoLength>
+<oligoDistance>1</oligoDistance>
+<Domain>
+<UCSC>
+<Organism>Homo_sapiens</Organism>
+<Chromosome>3</Chromosome>
+<startPosition>5600</startPosition>
+<endPosition>7000</endPosition>
+</UCSC>
+</Domain>
+</Query>
+<Job ConfigID="1" JobID="1" QueryName="1"/>
+</SolPicker>

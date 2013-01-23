@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="XML"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/axis.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/saaj.jar"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="lib" path="lib/wsdl4j-1.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="WSWUBlast.jar"/>
+	<classpathentry kind="lib" path="lib/CompareSAMs.jar"/>
+	<classpathentry kind="lib" path="lib/CreateSequenceDictionary.jar"/>
+	<classpathentry kind="lib" path="lib/MarkDuplicates.jar"/>
+	<classpathentry kind="lib" path="lib/MergeSamFiles.jar"/>
+	<classpathentry kind="lib" path="lib/picard-1.04.jar"/>
+	<classpathentry kind="lib" path="lib/sam-1.04.jar"/>
+	<classpathentry kind="lib" path="lib/SamFormatConverter.jar"/>
+	<classpathentry kind="lib" path="lib/ValidateSamFile.jar"/>
+	<classpathentry kind="lib" path="lib/ViewSam.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

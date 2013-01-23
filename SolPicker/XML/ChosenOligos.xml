@@ -1,0 +1,10 @@
+<!-- $Id: ChosenOligos.xml,v 1.11 2009/07/30 22:27:30 eprice Exp $ -->
+<!-- This is the list of all chosen oligos, including what sequence and configuration they belong to -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ChosenOligos>
+	<Job id="ID" QueryName="IDREF" ConfigID="IDREF">
+		<Oligo OligoID="int">
+			<Sequence />
+		</Oligo>
+	</Job>
+</ChosenOligos>

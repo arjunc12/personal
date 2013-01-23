@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:SolPicker xmlns:tns="http://www.example.org/SolPickerSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/SolPickerSchema SolPickerSchema.xsd ">
+  <Query QueryName="name">
+    <oligoLength>60</oligoLength>
+    <Domain>
+      <Ensembl>
+        <Chromosome>7</Chromosome>
+        <startPosition>145610000</startPosition>
+        <endPosition>145650000</endPosition>
+      </Ensembl>
+    </Domain>
+  </Query>
+  <Configuration ConfigID="id">
+    <Filter Type="">
+      <Parameter/>
+    </Filter>
+  </Configuration>
+  <Job ConfigID="id" JobID="0" QueryName="name"/>
+</tns:SolPicker>

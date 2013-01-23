@@ -1,0 +1,14 @@
+>Seq1
+agggtatattacctctctctggaattttacatgggccgaacattacagaa
+>Seq2
+caccatgatcaacctcggtctgcaaaatgcctgtgatgaggccatttaccagcttggatt
+>Seq3
+agggtatattacctctctctggaattttacatgggccgaacattacagaa
+>Seq4
+caccatgatcaacctcggtctgcaaaatgcctgtgatgaggccatttaccagcttggatt
+>Seq5
+agggtatattacctctctctggaattttacatgggccgaacattacagaa
+>Seq6
+caccatgatcaacctcggtctgcaaaatgcctgtgatgaggccatttaccagcttggatt
+>Seq7
+agggtatattacctctctctggaattttacatgggccgaacattacagaa

@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_1nZOkHioEd6TY5iM33U_sA">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOkXioEd6TY5iM33U_sA" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOknioEd6TY5iM33U_sA" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOk3ioEd6TY5iM33U_sA" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOlHioEd6TY5iM33U_sA" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOlXioEd6TY5iM33U_sA" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOlnioEd6TY5iM33U_sA" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOl3ioEd6TY5iM33U_sA" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1nZOmHioEd6TY5iM33U_sA" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZOmXioEd6TY5iM33U_sA" name="blast">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZOmnioEd6TY5iM33U_sA" name="BlastRequest">
+      <ownedAttribute xmi:id="_1nZOm3ioEd6TY5iM33U_sA" name="oligo" visibility="private" type="_1nZ2S3ioEd6TY5iM33U_sA" association="_1nZOr3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZOnHioEd6TY5iM33U_sA" name="BlastFactory">
+      <ownedAttribute xmi:id="_1nZOnXioEd6TY5iM33U_sA" name="request" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOnnioEd6TY5iM33U_sA" name="oligo" visibility="private" type="_1nZ2S3ioEd6TY5iM33U_sA" association="_1nZOsXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOn3ioEd6TY5iM33U_sA" name="al" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZOoHioEd6TY5iM33U_sA" name="Blast" visibility="public">
+        <ownedParameter xmi:id="_1nZOoXioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOonioEd6TY5iM33U_sA" name="wait" visibility="public">
+        <ownedParameter xmi:id="_1nZOo3ioEd6TY5iM33U_sA" name="n" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZOpHioEd6TY5iM33U_sA" name="BlastPutCommand">
+      <ownedAttribute xmi:id="_1nZOpXioEd6TY5iM33U_sA" name="query" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOpnioEd6TY5iM33U_sA" name="cmd" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOp3ioEd6TY5iM33U_sA" name="database" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOqHioEd6TY5iM33U_sA" name="program" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOqXioEd6TY5iM33U_sA" name="filter" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOqnioEd6TY5iM33U_sA" name="hitListSize" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZOq3ioEd6TY5iM33U_sA" name="getPutCommand" visibility="public">
+        <ownedParameter xmi:id="_1nZOrHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nZOrXioEd6TY5iM33U_sA" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nZOrnioEd6TY5iM33U_sA" name="ArrayList"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nZOr3ioEd6TY5iM33U_sA" memberEnd="_1nZOm3ioEd6TY5iM33U_sA _1nZOsHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nZOsHioEd6TY5iM33U_sA" name="target" type="_1nZOmnioEd6TY5iM33U_sA" association="_1nZOr3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nZOsXioEd6TY5iM33U_sA" memberEnd="_1nZOnnioEd6TY5iM33U_sA _1nZOsnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nZOsnioEd6TY5iM33U_sA" name="target" type="_1nZOnHioEd6TY5iM33U_sA" association="_1nZOsXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZOs3ioEd6TY5iM33U_sA" name="ensembl">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZOtHioEd6TY5iM33U_sA" name="GetEnsembleDna">
+      <generalization xmi:id="_1nZOtXioEd6TY5iM33U_sA" general="_1nZ2uHioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZOtnioEd6TY5iM33U_sA" name="createURL" visibility="public"/>
+      <ownedOperation xmi:id="_1nZOt3ioEd6TY5iM33U_sA" name="cutHeader" visibility="public">
+        <ownedParameter xmi:id="_1nZOuHioEd6TY5iM33U_sA" name="fasta" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZOuXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOunioEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_1nZOu3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZOvHioEd6TY5iM33U_sA" name="filters">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZOvXioEd6TY5iM33U_sA" name="FailScoreFilter">
+      <generalization xmi:id="_1nZOvnioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOv3ioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOwHioEd6TY5iM33U_sA" name="maxFail" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZOwXioEd6TY5iM33U_sA" name="failScore" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZOwnioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZOw3ioEd6TY5iM33U_sA" name="oligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZOxHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOxXioEd6TY5iM33U_sA" name="getTMScore" visibility="private">
+        <ownedParameter xmi:id="_1nZOxnioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOx3ioEd6TY5iM33U_sA" name="getHomoPolymerScore" visibility="private">
+        <ownedParameter xmi:id="_1nZOyHioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOyXioEd6TY5iM33U_sA" name="fiveInARow" visibility="private">
+        <ownedParameter xmi:id="_1nZOynioEd6TY5iM33U_sA" name="poly" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZOy3ioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOzHioEd6TY5iM33U_sA" name="sevenConsecutive" visibility="private">
+        <ownedParameter xmi:id="_1nZOzXioEd6TY5iM33U_sA" name="poly" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZOznioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZOz3ioEd6TY5iM33U_sA" name="getBaseFractionScore" visibility="private">
+        <ownedParameter xmi:id="_1nZO0HioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO0XioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZO0nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO03ioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZO1HioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO1XioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZO1nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZO13ioEd6TY5iM33U_sA" name="BlastFilter">
+      <generalization xmi:id="_1nZO2HioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZO2XioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZO2nioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZO23ioEd6TY5iM33U_sA" name="oligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZO3HioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO3XioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZO3nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO33ioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZO4HioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZO4XioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ1oHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ1oXioEd6TY5iM33U_sA" name="LowerCaseFilter">
+      <generalization xmi:id="_1nZ1onioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1o3ioEd6TY5iM33U_sA" name="maxLower" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1pHioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ1pXioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZ1pnioEd6TY5iM33U_sA" name="validOligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1p3ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1qHioEd6TY5iM33U_sA" name="getLowerCaseCount" visibility="private">
+        <ownedParameter xmi:id="_1nZ1qXioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1qnioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1q3ioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZ1rHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1rXioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZ1rnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1r3ioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ1sHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ1sXioEd6TY5iM33U_sA" name="GCFilter">
+      <generalization xmi:id="_1nZ1snioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1s3ioEd6TY5iM33U_sA" name="minGC" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1tHioEd6TY5iM33U_sA" name="maxGC" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1tXioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ1tnioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZ1t3ioEd6TY5iM33U_sA" name="validOligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1uHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1uXioEd6TY5iM33U_sA" name="getGCPercent" visibility="private">
+        <ownedParameter xmi:id="_1nZ1unioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1u3ioEd6TY5iM33U_sA" name="return" type="_1nZOlHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1vHioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZ1vXioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1vnioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZ1v3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1wHioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ1wXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ1wnioEd6TY5iM33U_sA" name="NCountFilter">
+      <generalization xmi:id="_1nZ1w3ioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1xHioEd6TY5iM33U_sA" name="maxN" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1xXioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ1xnioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZ1x3ioEd6TY5iM33U_sA" name="validOligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1yHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1yXioEd6TY5iM33U_sA" name="getNCount" visibility="private">
+        <ownedParameter xmi:id="_1nZ1ynioEd6TY5iM33U_sA" name="o" type="_1nZ2S3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ1y3ioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1zHioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZ1zXioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ1znioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZ1z3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ10HioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ10XioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ10nioEd6TY5iM33U_sA" name="Filter">
+      <ownedAttribute xmi:id="_1nZ103ioEd6TY5iM33U_sA" name="invalidOligos" visibility="protected" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ11HioEd6TY5iM33U_sA" name="filter" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ11XioEd6TY5iM33U_sA" name="oligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ11nioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ113ioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ12HioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ12XioEd6TY5iM33U_sA" name="getFilterType" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ12nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ123ioEd6TY5iM33U_sA" name="toXML" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ13HioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ13XioEd6TY5iM33U_sA" name="getInvalidOligos" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ13nioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ133ioEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_1nZ14HioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ14XioEd6TY5iM33U_sA" name="EnzymeFilter">
+      <generalization xmi:id="_1nZ14nioEd6TY5iM33U_sA" general="_1nZ10nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ143ioEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ15HioEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ15XioEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_1nZ15nioEd6TY5iM33U_sA" name="validOligos" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ153ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ16HioEd6TY5iM33U_sA" name="getComplement" visibility="private">
+        <ownedParameter xmi:id="_1nZ16XioEd6TY5iM33U_sA" name="sequence" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ16nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ163ioEd6TY5iM33U_sA" name="getReverse" visibility="private">
+        <ownedParameter xmi:id="_1nZ17HioEd6TY5iM33U_sA" name="sequence" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ17XioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ17nioEd6TY5iM33U_sA" name="searchForMatch" visibility="private">
+        <ownedParameter xmi:id="_1nZ173ioEd6TY5iM33U_sA" name="oligo" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ18HioEd6TY5iM33U_sA" name="enzyme" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ18XioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ18nioEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_1nZ183ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ19HioEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_1nZ19XioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ19nioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ193ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZ1-HioEd6TY5iM33U_sA" name="job">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ1-XioEd6TY5iM33U_sA" name="JobFactory"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ1-nioEd6TY5iM33U_sA" name="Range">
+      <ownedAttribute xmi:id="_1nZ1-3ioEd6TY5iM33U_sA" name="organism" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1_HioEd6TY5iM33U_sA" name="chromosomeNumber" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1_XioEd6TY5iM33U_sA" name="startBase" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1_nioEd6TY5iM33U_sA" name="endBase" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ1_3ioEd6TY5iM33U_sA" name="queries" visibility="public" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2AHioEd6TY5iM33U_sA" name="sequence" visibility="public" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2AXioEd6TY5iM33U_sA" name="getSequence" visibility="public">
+        <ownedParameter xmi:id="_1nZ2AnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2A3ioEd6TY5iM33U_sA" name="getQueries" visibility="public">
+        <ownedParameter xmi:id="_1nZ2BHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2BXioEd6TY5iM33U_sA" name="addQuery" visibility="public">
+        <ownedParameter xmi:id="_1nZ2BnioEd6TY5iM33U_sA" name="q" type="_1nZ2d3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2B3ioEd6TY5iM33U_sA" name="setStartBase" visibility="public">
+        <ownedParameter xmi:id="_1nZ2CHioEd6TY5iM33U_sA" name="startBase" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2CXioEd6TY5iM33U_sA" name="setEndBase" visibility="public">
+        <ownedParameter xmi:id="_1nZ2CnioEd6TY5iM33U_sA" name="endBase" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2C3ioEd6TY5iM33U_sA" name="setChromosomeNumber" visibility="public">
+        <ownedParameter xmi:id="_1nZ2DHioEd6TY5iM33U_sA" name="chr" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2DXioEd6TY5iM33U_sA" name="setOrganism" visibility="public">
+        <ownedParameter xmi:id="_1nZ2DnioEd6TY5iM33U_sA" name="organism" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2D3ioEd6TY5iM33U_sA" name="getStartBase" visibility="public">
+        <ownedParameter xmi:id="_1nZ2EHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2EXioEd6TY5iM33U_sA" name="getEndBase" visibility="public">
+        <ownedParameter xmi:id="_1nZ2EnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2E3ioEd6TY5iM33U_sA" name="getChromosomeNumber" visibility="public">
+        <ownedParameter xmi:id="_1nZ2FHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2FXioEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_1nZ2FnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2F3ioEd6TY5iM33U_sA" name="size" visibility="public">
+        <ownedParameter xmi:id="_1nZ2GHioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2GXioEd6TY5iM33U_sA" name="compareStringAsInt" visibility="public">
+        <ownedParameter xmi:id="_1nZ2GnioEd6TY5iM33U_sA" name="a" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2G3ioEd6TY5iM33U_sA" name="b" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2HHioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2HXioEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_1nZ2HnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2H3ioEd6TY5iM33U_sA" name="equals" visibility="public">
+        <ownedParameter xmi:id="_1nZ2IHioEd6TY5iM33U_sA" name="r" type="_1nZ1-nioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2IXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2InioEd6TY5iM33U_sA" name="Job">
+      <ownedAttribute xmi:id="_1nZ2I3ioEd6TY5iM33U_sA" name="configurationID" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2JHioEd6TY5iM33U_sA" name="queryID" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2JXioEd6TY5iM33U_sA" name="config" visibility="private" type="_1nZ2NHioEd6TY5iM33U_sA" association="_1nZ2rXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2JnioEd6TY5iM33U_sA" name="q" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nZ2r3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2J3ioEd6TY5iM33U_sA" name="id" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2KHioEd6TY5iM33U_sA" name="ID" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2KXioEd6TY5iM33U_sA" name="performJob" visibility="public"/>
+      <ownedOperation xmi:id="_1nZ2KnioEd6TY5iM33U_sA" name="doJob" visibility="public">
+        <ownedParameter xmi:id="_1nZ2K3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2LHioEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2LXioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2LnioEd6TY5iM33U_sA" name="getConfigurationID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2L3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2MHioEd6TY5iM33U_sA" name="getQueryID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2MXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2MnioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ2M3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2NHioEd6TY5iM33U_sA" name="Configuration">
+      <ownedAttribute xmi:id="_1nZ2NXioEd6TY5iM33U_sA" name="filters" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2NnioEd6TY5iM33U_sA" name="id" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2N3ioEd6TY5iM33U_sA" name="identity" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2OHioEd6TY5iM33U_sA" name="Identities" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2OXioEd6TY5iM33U_sA" name="addFilter" visibility="public">
+        <ownedParameter xmi:id="_1nZ2OnioEd6TY5iM33U_sA" name="f" type="_1nZ10nioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2O3ioEd6TY5iM33U_sA" name="getFilters" visibility="public">
+        <ownedParameter xmi:id="_1nZ2PHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2PXioEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2PnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2P3ioEd6TY5iM33U_sA" name="setID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2QHioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2QXioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ2QnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2Q3ioEd6TY5iM33U_sA" name="getIdentity" visibility="public">
+        <ownedParameter xmi:id="_1nZ2RHioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2RXioEd6TY5iM33U_sA" name="ParseSequence">
+      <ownedAttribute xmi:id="_1nZ2RnioEd6TY5iM33U_sA" name="sequence" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2R3ioEd6TY5iM33U_sA" name="oLength" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2SHioEd6TY5iM33U_sA" name="minDistance" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2SXioEd6TY5iM33U_sA" name="parse" visibility="public">
+        <ownedParameter xmi:id="_1nZ2SnioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2S3ioEd6TY5iM33U_sA" name="Oligo">
+      <ownedAttribute xmi:id="_1nZ2THioEd6TY5iM33U_sA" name="sequence" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2TXioEd6TY5iM33U_sA" name="reasonForRejection" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2TnioEd6TY5iM33U_sA" name="hasBeenRejected" visibility="private" type="_1nZOkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2T3ioEd6TY5iM33U_sA" name="complementaryEnzyme" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2UHioEd6TY5iM33U_sA" name="id" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2UXioEd6TY5iM33U_sA" name="ID" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2UnioEd6TY5iM33U_sA" name="reject" visibility="public">
+        <ownedParameter xmi:id="_1nZ2U3ioEd6TY5iM33U_sA" name="reason" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2VHioEd6TY5iM33U_sA" name="reject" visibility="public">
+        <ownedParameter xmi:id="_1nZ2VXioEd6TY5iM33U_sA" name="reason" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2VnioEd6TY5iM33U_sA" name="enzyme" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2V3ioEd6TY5iM33U_sA" name="getComplementaryEnzyme" visibility="public">
+        <ownedParameter xmi:id="_1nZ2WHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2WXioEd6TY5iM33U_sA" name="getReasonForRejection" visibility="public">
+        <ownedParameter xmi:id="_1nZ2WnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2W3ioEd6TY5iM33U_sA" name="getSequence" visibility="public">
+        <ownedParameter xmi:id="_1nZ2XHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2XXioEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_1nZ2XnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2X3ioEd6TY5iM33U_sA" name="hasBeenRejected" visibility="public">
+        <ownedParameter xmi:id="_1nZ2YHioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2YXioEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2YnioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2Y3ioEd6TY5iM33U_sA" name="QueryFactory">
+      <ownedAttribute xmi:id="_1nZ2ZHioEd6TY5iM33U_sA" name="min_distance" visibility="public" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2ZXioEd6TY5iM33U_sA" name="ranges" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2ZnioEd6TY5iM33U_sA" name="sortQueries" visibility="protected">
+        <ownedParameter xmi:id="_1nZ2Z3ioEd6TY5iM33U_sA" name="q" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2aHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2aXioEd6TY5iM33U_sA" name="joinQueries" visibility="public">
+        <ownedParameter xmi:id="_1nZ2anioEd6TY5iM33U_sA" name="queries" type="_1nZOrnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2a3ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2bHioEd6TY5iM33U_sA" name="getRangeArray" visibility="public">
+        <ownedParameter xmi:id="_1nZ2bXioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2bnioEd6TY5iM33U_sA" name="separateSequenceToQuery" visibility="public">
+        <ownedParameter xmi:id="_1nZ2b3ioEd6TY5iM33U_sA" name="range" type="_1nZ1-nioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2cHioEd6TY5iM33U_sA" name="sequence" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2cXioEd6TY5iM33U_sA" name="getMinDistance" visibility="public">
+        <ownedParameter xmi:id="_1nZ2cnioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2c3ioEd6TY5iM33U_sA" name="compareStringAsInt" visibility="private">
+        <ownedParameter xmi:id="_1nZ2dHioEd6TY5iM33U_sA" name="a" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2dXioEd6TY5iM33U_sA" name="b" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2dnioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2d3ioEd6TY5iM33U_sA" name="Query">
+      <ownedAttribute xmi:id="_1nZ2eHioEd6TY5iM33U_sA" name="chr" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2eXioEd6TY5iM33U_sA" name="start" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2enioEd6TY5iM33U_sA" name="end" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2e3ioEd6TY5iM33U_sA" name="id" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2fHioEd6TY5iM33U_sA" name="organism" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2fXioEd6TY5iM33U_sA" name="p5" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2fnioEd6TY5iM33U_sA" name="p3" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2f3ioEd6TY5iM33U_sA" name="domain" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2gHioEd6TY5iM33U_sA" name="oligoLength" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2gXioEd6TY5iM33U_sA" name="minDistance" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2gnioEd6TY5iM33U_sA" name="setOrganism" visibility="public">
+        <ownedParameter xmi:id="_1nZ2g3ioEd6TY5iM33U_sA" name="org" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2hHioEd6TY5iM33U_sA" name="set5Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2hXioEd6TY5iM33U_sA" name="pad" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2hnioEd6TY5iM33U_sA" name="set5Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2h3ioEd6TY5iM33U_sA" name="pad" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2iHioEd6TY5iM33U_sA" name="set3Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2iXioEd6TY5iM33U_sA" name="pad" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2inioEd6TY5iM33U_sA" name="set3Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2i3ioEd6TY5iM33U_sA" name="pad" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2jHioEd6TY5iM33U_sA" name="setDomain" visibility="public">
+        <ownedParameter xmi:id="_1nZ2jXioEd6TY5iM33U_sA" name="dom" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2jnioEd6TY5iM33U_sA" name="setDomain" visibility="public">
+        <ownedParameter xmi:id="_1nZ2j3ioEd6TY5iM33U_sA" name="d" type="_1nZ2uHioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2kHioEd6TY5iM33U_sA" name="setMinDistance" visibility="public">
+        <ownedParameter xmi:id="_1nZ2kXioEd6TY5iM33U_sA" name="distance" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2knioEd6TY5iM33U_sA" name="setMinDistance" visibility="public">
+        <ownedParameter xmi:id="_1nZ2k3ioEd6TY5iM33U_sA" name="distance" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2lHioEd6TY5iM33U_sA" name="getChromosomeIdentifier" visibility="public">
+        <ownedParameter xmi:id="_1nZ2lXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2lnioEd6TY5iM33U_sA" name="getStart" visibility="public">
+        <ownedParameter xmi:id="_1nZ2l3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2mHioEd6TY5iM33U_sA" name="getEnd" visibility="public">
+        <ownedParameter xmi:id="_1nZ2mXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2mnioEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_1nZ2m3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2nHioEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_1nZ2nXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2nnioEd6TY5iM33U_sA" name="get5Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2n3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2oHioEd6TY5iM33U_sA" name="get3Padding" visibility="public">
+        <ownedParameter xmi:id="_1nZ2oXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2onioEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_1nZ2o3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2pHioEd6TY5iM33U_sA" name="getOligoLength" visibility="public">
+        <ownedParameter xmi:id="_1nZ2pXioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2pnioEd6TY5iM33U_sA" name="getMinDIstance" visibility="public">
+        <ownedParameter xmi:id="_1nZ2p3ioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2qHioEd6TY5iM33U_sA" name="compareTo" visibility="public">
+        <ownedParameter xmi:id="_1nZ2qXioEd6TY5iM33U_sA" name="o" type="_1nZ2d3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ2qnioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2q3ioEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_1nZ2rHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nZ2rXioEd6TY5iM33U_sA" memberEnd="_1nZ2JXioEd6TY5iM33U_sA _1nZ2rnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nZ2rnioEd6TY5iM33U_sA" name="target" type="_1nZ2InioEd6TY5iM33U_sA" association="_1nZ2rXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nZ2r3ioEd6TY5iM33U_sA" memberEnd="_1nZ2JnioEd6TY5iM33U_sA _1nZ2sHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nZ2sHioEd6TY5iM33U_sA" name="target" type="_1nZ2InioEd6TY5iM33U_sA" association="_1nZ2r3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZ2sXioEd6TY5iM33U_sA" name="server">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2snioEd6TY5iM33U_sA" name="GetRequest">
+      <ownedAttribute xmi:id="_1nZ2s3ioEd6TY5iM33U_sA" name="result" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2tHioEd6TY5iM33U_sA" name="url" visibility="private" type="_1nZ22XioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2tXioEd6TY5iM33U_sA" name="sendGetRequest" visibility="public"/>
+      <ownedOperation xmi:id="_1nZ2tnioEd6TY5iM33U_sA" name="getResult" visibility="public">
+        <ownedParameter xmi:id="_1nZ2t3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ2uHioEd6TY5iM33U_sA" name="Domain">
+      <ownedAttribute xmi:id="_1nZ2uXioEd6TY5iM33U_sA" name="finalUrl" visibility="protected" type="_1nZ22XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2unioEd6TY5iM33U_sA" name="urlStr" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2u3ioEd6TY5iM33U_sA" name="chr" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2vHioEd6TY5iM33U_sA" name="first" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2vXioEd6TY5iM33U_sA" name="second" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2vnioEd6TY5iM33U_sA" name="organism" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2v3ioEd6TY5iM33U_sA" name="p5" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2wHioEd6TY5iM33U_sA" name="p3" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2wXioEd6TY5iM33U_sA" name="chromosome_number" visibility="protected" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ2wnioEd6TY5iM33U_sA" name="getFirst" visibility="public">
+        <ownedParameter xmi:id="_1nZ2w3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2xHioEd6TY5iM33U_sA" name="getSecond" visibility="public">
+        <ownedParameter xmi:id="_1nZ2xXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2xnioEd6TY5iM33U_sA" name="getChromosome" visibility="public">
+        <ownedParameter xmi:id="_1nZ2x3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2yHioEd6TY5iM33U_sA" name="getURL" visibility="public">
+        <ownedParameter xmi:id="_1nZ2yXioEd6TY5iM33U_sA" name="return" type="_1nZ22XioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2ynioEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_1nZ2y3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2zHioEd6TY5iM33U_sA" name="setURL" visibility="public">
+        <ownedParameter xmi:id="_1nZ2zXioEd6TY5iM33U_sA" name="url" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ2znioEd6TY5iM33U_sA" name="isChromosomeValid" visibility="public">
+        <ownedParameter xmi:id="_1nZ2z3ioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ20HioEd6TY5iM33U_sA" name="isEmpty" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ20XioEd6TY5iM33U_sA" name="s" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ20nioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ203ioEd6TY5iM33U_sA" name="createURL" visibility="protected" isAbstract="true"/>
+      <ownedOperation xmi:id="_1nZ21HioEd6TY5iM33U_sA" name="cutHeader" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ21XioEd6TY5iM33U_sA" name="fasta" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ21nioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ213ioEd6TY5iM33U_sA" name="getDomain" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_1nZ22HioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nZ22XioEd6TY5iM33U_sA" name="URL"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZ22nioEd6TY5iM33U_sA" name="solPicker">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ223ioEd6TY5iM33U_sA" name="CDF_Normal">
+      <ownedOperation xmi:id="_1nZ23HioEd6TY5iM33U_sA" name="xnormi" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ23XioEd6TY5iM33U_sA" name="p" type="_1nZOlHioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ23nioEd6TY5iM33U_sA" name="return" type="_1nZOlHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ233ioEd6TY5iM33U_sA" name="normp" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ24HioEd6TY5iM33U_sA" name="z" type="_1nZOlHioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ24XioEd6TY5iM33U_sA" name="return" type="_1nZOlHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nZ24nioEd6TY5iM33U_sA" name="solPickerGUI">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ243ioEd6TY5iM33U_sA" name="ExecutePanel">
+      <generalization xmi:id="_1nZ25HioEd6TY5iM33U_sA" general="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ25XioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ25nioEd6TY5iM33U_sA" name="writeToXMLButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ253ioEd6TY5iM33U_sA" name="doJobsButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ26HioEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_1nZ26XioEd6TY5iM33U_sA" name="setRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nZ26nioEd6TY5iM33U_sA" name="c" type="_1nac_3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ263ioEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nZ27HioEd6TY5iM33U_sA" name="return" type="_1nadAHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ27XioEd6TY5iM33U_sA" name="AddConfigurationPanel">
+      <generalization xmi:id="_1nZ27nioEd6TY5iM33U_sA" general="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ273ioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ28HioEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ28XioEd6TY5iM33U_sA" name="configs" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ28nioEd6TY5iM33U_sA" name="enzymeFilterCheck" visibility="private" type="_1nadAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ283ioEd6TY5iM33U_sA" name="enzymeNameLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ29HioEd6TY5iM33U_sA" name="enzymeNameField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ29XioEd6TY5iM33U_sA" name="enzymeSequenceLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ29nioEd6TY5iM33U_sA" name="enzymeSequenceField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ293ioEd6TY5iM33U_sA" name="addEnzymeButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2-HioEd6TY5iM33U_sA" name="removeEnzymeButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2-XioEd6TY5iM33U_sA" name="clearEnzymesButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2-nioEd6TY5iM33U_sA" name="failScoreCheck" visibility="private" type="_1nadAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2-3ioEd6TY5iM33U_sA" name="maxFailLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2_HioEd6TY5iM33U_sA" name="maxFailField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2_XioEd6TY5iM33U_sA" name="gcCheck" visibility="private" type="_1nadAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2_nioEd6TY5iM33U_sA" name="minGCLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ2_3ioEd6TY5iM33U_sA" name="minGCField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3AHioEd6TY5iM33U_sA" name="maxGCLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3AXioEd6TY5iM33U_sA" name="maxGCField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3AnioEd6TY5iM33U_sA" name="lowerCheck" visibility="private" type="_1nadAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3A3ioEd6TY5iM33U_sA" name="maxLowerLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3BHioEd6TY5iM33U_sA" name="maxLowerField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3BXioEd6TY5iM33U_sA" name="nCheck" visibility="private" type="_1nadAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3BnioEd6TY5iM33U_sA" name="maxNLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3B3ioEd6TY5iM33U_sA" name="maxNField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3CHioEd6TY5iM33U_sA" name="enzymeInfoPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3CXioEd6TY5iM33U_sA" name="enzymeButtonsPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3CnioEd6TY5iM33U_sA" name="finalEnzymePanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3C3ioEd6TY5iM33U_sA" name="failPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3DHioEd6TY5iM33U_sA" name="gcPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3DXioEd6TY5iM33U_sA" name="lowerPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3DnioEd6TY5iM33U_sA" name="nPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3D3ioEd6TY5iM33U_sA" name="configIDLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3EHioEd6TY5iM33U_sA" name="configIDField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3EXioEd6TY5iM33U_sA" name="addConfigButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3EnioEd6TY5iM33U_sA" name="addConfigPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ3E3ioEd6TY5iM33U_sA" name="isValidSequence" visibility="private">
+        <ownedParameter xmi:id="_1nZ3FHioEd6TY5iM33U_sA" name="seq" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ3FXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3FnioEd6TY5iM33U_sA" name="initialize" visibility="private"/>
+      <ownedOperation xmi:id="_1nZ3F3ioEd6TY5iM33U_sA" name="isEmpty" visibility="private">
+        <ownedParameter xmi:id="_1nZ3GHioEd6TY5iM33U_sA" name="field" type="_1nadA3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ3GXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3GnioEd6TY5iM33U_sA" name="isDuplicateID" visibility="private">
+        <ownedParameter xmi:id="_1nZ3G3ioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ3HHioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3HXioEd6TY5iM33U_sA" name="fieldsFilledProperly" visibility="private">
+        <ownedParameter xmi:id="_1nZ3HnioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3H3ioEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_1nZ3IHioEd6TY5iM33U_sA" name="num" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nZ3IXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3InioEd6TY5iM33U_sA" name="getConfigs" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ3I3ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3JHioEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nZ3JXioEd6TY5iM33U_sA" name="return" type="_1nadAHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3JnioEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_1nZ3J3ioEd6TY5iM33U_sA" name="clearEnzymeFields" visibility="private"/>
+      <ownedOperation xmi:id="_1nZ3KHioEd6TY5iM33U_sA" name="clearFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ3KXioEd6TY5iM33U_sA" name="SolPickerFrame">
+      <ownedOperation xmi:id="_1nZ3KnioEd6TY5iM33U_sA" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ3K3ioEd6TY5iM33U_sA" name="args" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nZ3LHioEd6TY5iM33U_sA" name="AddJobPanel">
+      <generalization xmi:id="_1nZ3LXioEd6TY5iM33U_sA" general="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3LnioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3L3ioEd6TY5iM33U_sA" name="queryIdLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3MHioEd6TY5iM33U_sA" name="queryIdField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3MXioEd6TY5iM33U_sA" name="configIdLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3MnioEd6TY5iM33U_sA" name="configIdField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3M3ioEd6TY5iM33U_sA" name="addJobButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3NHioEd6TY5iM33U_sA" name="labelPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3NXioEd6TY5iM33U_sA" name="fieldPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nZ3NnioEd6TY5iM33U_sA" name="jobs" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nZ3N3ioEd6TY5iM33U_sA" name="getJobs" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nZ3OHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3OXioEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_1nZ3OnioEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nZ3O3ioEd6TY5iM33U_sA" name="c" type="_1nac_3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nZ3PHioEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nZ3PXioEd6TY5iM33U_sA" name="return" type="_1nadAHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacsHioEd6TY5iM33U_sA" name="fieldsFilledProperly" visibility="private">
+        <ownedParameter xmi:id="_1nacsXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacsnioEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_1nacs3ioEd6TY5iM33U_sA" name="num" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nactHioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nactXioEd6TY5iM33U_sA" name="queryExists" visibility="private">
+        <ownedParameter xmi:id="_1nactnioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nact3ioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacuHioEd6TY5iM33U_sA" name="configExists" visibility="private">
+        <ownedParameter xmi:id="_1nacuXioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nacunioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacu3ioEd6TY5iM33U_sA" name="findQuery" visibility="private">
+        <ownedParameter xmi:id="_1nacvHioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nacvXioEd6TY5iM33U_sA" name="return" type="_1nZ2d3ioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacvnioEd6TY5iM33U_sA" name="findConfig" visibility="private">
+        <ownedParameter xmi:id="_1nacv3ioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nacwHioEd6TY5iM33U_sA" name="return" type="_1nZ2NHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nacwXioEd6TY5iM33U_sA" name="clearFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nacwnioEd6TY5iM33U_sA" name="AddQueryPanel">
+      <generalization xmi:id="_1nacw3ioEd6TY5iM33U_sA" general="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacxHioEd6TY5iM33U_sA" name="cNumLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacxXioEd6TY5iM33U_sA" name="cNumField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacxnioEd6TY5iM33U_sA" name="startLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacx3ioEd6TY5iM33U_sA" name="startField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacyHioEd6TY5iM33U_sA" name="endLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacyXioEd6TY5iM33U_sA" name="endField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacynioEd6TY5iM33U_sA" name="idLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacy3ioEd6TY5iM33U_sA" name="idField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naczHioEd6TY5iM33U_sA" name="lengthLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naczXioEd6TY5iM33U_sA" name="lengthField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacznioEd6TY5iM33U_sA" name="organismLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nacz3ioEd6TY5iM33U_sA" name="organismField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac0HioEd6TY5iM33U_sA" name="p5Label" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac0XioEd6TY5iM33U_sA" name="p5Field" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac0nioEd6TY5iM33U_sA" name="p3Label" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac03ioEd6TY5iM33U_sA" name="p3Field" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac1HioEd6TY5iM33U_sA" name="domainLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac1XioEd6TY5iM33U_sA" name="domainField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac1nioEd6TY5iM33U_sA" name="distanceLabel" visibility="private" type="_1nadAnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac13ioEd6TY5iM33U_sA" name="distanceField" visibility="private" type="_1nadA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac2HioEd6TY5iM33U_sA" name="addQueryButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac2XioEd6TY5iM33U_sA" name="removeQueryButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac2nioEd6TY5iM33U_sA" name="clearQueriesButton" visibility="private" type="_1nac_nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac23ioEd6TY5iM33U_sA" name="queries" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac3HioEd6TY5iM33U_sA" name="qInfoPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac3XioEd6TY5iM33U_sA" name="qButtonsPanel" visibility="private" type="_1nac_XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nac3nioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nac33ioEd6TY5iM33U_sA" name="initialize" visibility="private"/>
+      <ownedOperation xmi:id="_1nac4HioEd6TY5iM33U_sA" name="fieldsFilledCorrectly" visibility="private">
+        <ownedParameter xmi:id="_1nac4XioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac4nioEd6TY5iM33U_sA" name="isEmpty" visibility="private">
+        <ownedParameter xmi:id="_1nac43ioEd6TY5iM33U_sA" name="field" type="_1nadA3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac5HioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac5XioEd6TY5iM33U_sA" name="isValidDomain" visibility="private">
+        <ownedParameter xmi:id="_1nac5nioEd6TY5iM33U_sA" name="domain" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac53ioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac6HioEd6TY5iM33U_sA" name="isDuplicateID" visibility="private">
+        <ownedParameter xmi:id="_1nac6XioEd6TY5iM33U_sA" name="id" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac6nioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac63ioEd6TY5iM33U_sA" name="isValidChromosome" visibility="private">
+        <ownedParameter xmi:id="_1nac7HioEd6TY5iM33U_sA" name="cNum" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac7XioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac7nioEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_1nac73ioEd6TY5iM33U_sA" name="num" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac8HioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac8XioEd6TY5iM33U_sA" name="isValidOrganism" visibility="private">
+        <ownedParameter xmi:id="_1nac8nioEd6TY5iM33U_sA" name="organism" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac83ioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac9HioEd6TY5iM33U_sA" name="isUpperCase" visibility="private">
+        <ownedParameter xmi:id="_1nac9XioEd6TY5iM33U_sA" name="str" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nac9nioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac93ioEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_1nac-HioEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_1nac-XioEd6TY5iM33U_sA" name="return" type="_1nadAHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac-nioEd6TY5iM33U_sA" name="getQueries" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nac-3ioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nac_HioEd6TY5iM33U_sA" name="clearQueryFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nac_XioEd6TY5iM33U_sA" name="JPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nac_nioEd6TY5iM33U_sA" name="JButton"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nac_3ioEd6TY5iM33U_sA" name="JComponent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadAHioEd6TY5iM33U_sA" name="Color"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadAXioEd6TY5iM33U_sA" name="JCheckBox"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadAnioEd6TY5iM33U_sA" name="JLabel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadA3ioEd6TY5iM33U_sA" name="JTextField"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nadBHioEd6TY5iM33U_sA" name="ucsc">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadBXioEd6TY5iM33U_sA" name="GetUCSCDna">
+      <generalization xmi:id="_1nadBnioEd6TY5iM33U_sA" general="_1nZ2uHioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadB3ioEd6TY5iM33U_sA" name="query" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadCHioEd6TY5iM33U_sA" name="g" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadCXioEd6TY5iM33U_sA" name="db" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadCnioEd6TY5iM33U_sA" name="padding5" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadC3ioEd6TY5iM33U_sA" name="padding3" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadDHioEd6TY5iM33U_sA" name="maskRepeats" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadDXioEd6TY5iM33U_sA" name="boolShadeRepeats" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadDnioEd6TY5iM33U_sA" name="casing" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadD3ioEd6TY5iM33U_sA" name="repMasking" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadEHioEd6TY5iM33U_sA" name="revComp" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadEXioEd6TY5iM33U_sA" name="defaults" visibility="protected" type="_1nadJXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadEnioEd6TY5iM33U_sA" name="init" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadE3ioEd6TY5iM33U_sA" name="createURL" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadFHioEd6TY5iM33U_sA" name="cutHeader" visibility="public">
+        <ownedParameter xmi:id="_1nadFXioEd6TY5iM33U_sA" name="fasta" type="_1nZOrXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadFnioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadF3ioEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_1nadGHioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadGXioEd6TY5iM33U_sA" name="setG" visibility="public">
+        <ownedParameter xmi:id="_1nadGnioEd6TY5iM33U_sA" name="g" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadG3ioEd6TY5iM33U_sA" name="setDatabase" visibility="public">
+        <ownedParameter xmi:id="_1nadHHioEd6TY5iM33U_sA" name="db" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadHXioEd6TY5iM33U_sA" name="setPadding5" visibility="public">
+        <ownedParameter xmi:id="_1nadHnioEd6TY5iM33U_sA" name="padding5" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadH3ioEd6TY5iM33U_sA" name="setPadding3" visibility="public">
+        <ownedParameter xmi:id="_1nadIHioEd6TY5iM33U_sA" name="padding3" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadIXioEd6TY5iM33U_sA" name="setRevComp" visibility="public">
+        <ownedParameter xmi:id="_1nadInioEd6TY5iM33U_sA" name="revComp" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadI3ioEd6TY5iM33U_sA" name="getDefaults" visibility="public">
+        <ownedParameter xmi:id="_1nadJHioEd6TY5iM33U_sA" name="return" type="_1nadJXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadJXioEd6TY5iM33U_sA" name="HashMap"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nadJnioEd6TY5iM33U_sA" name="xmlParser">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadJ3ioEd6TY5iM33U_sA" name="DuplicateConfigurationException">
+      <generalization xmi:id="_1nadKHioEd6TY5iM33U_sA" general="_1nadjXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadKXioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadKnioEd6TY5iM33U_sA" name="configuration" visibility="private" type="_1nZ2NHioEd6TY5iM33U_sA" association="_1nadlHioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadK3ioEd6TY5iM33U_sA" name="nConfig" visibility="private" type="_1nadjnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadLHioEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_1nadLXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadLnioEd6TY5iM33U_sA" name="setNConfig" visibility="public">
+        <ownedParameter xmi:id="_1nadL3ioEd6TY5iM33U_sA" name="nConfig" type="_1nadjnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadMHioEd6TY5iM33U_sA" name="getNConfig" visibility="public">
+        <ownedParameter xmi:id="_1nadMXioEd6TY5iM33U_sA" name="return" type="_1nadjnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadMnioEd6TY5iM33U_sA" name="FilterException">
+      <generalization xmi:id="_1nadM3ioEd6TY5iM33U_sA" general="_1nadjXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadNHioEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_1nZOl3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadNXioEd6TY5iM33U_sA" name="message" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadNnioEd6TY5iM33U_sA" name="setMessage" visibility="public">
+        <ownedParameter xmi:id="_1nadN3ioEd6TY5iM33U_sA" name="message" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadOHioEd6TY5iM33U_sA" name="message" visibility="public">
+        <ownedParameter xmi:id="_1nadOXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadOnioEd6TY5iM33U_sA" name="XMLErrorHandler">
+      <ownedAttribute xmi:id="_1nadO3ioEd6TY5iM33U_sA" name="fatalError" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadPHioEd6TY5iM33U_sA" name="warning" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadPXioEd6TY5iM33U_sA" name="error" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadPnioEd6TY5iM33U_sA" name="error" visibility="public">
+        <ownedParameter xmi:id="_1nadP3ioEd6TY5iM33U_sA" name="exception" type="_1nadj3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadQHioEd6TY5iM33U_sA" name="fatalError" visibility="public">
+        <ownedParameter xmi:id="_1nadQXioEd6TY5iM33U_sA" name="exception" type="_1nadj3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadQnioEd6TY5iM33U_sA" name="warning" visibility="public">
+        <ownedParameter xmi:id="_1nadQ3ioEd6TY5iM33U_sA" name="exception" type="_1nadj3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadRHioEd6TY5iM33U_sA" name="getFatalErrorMessage" visibility="public">
+        <ownedParameter xmi:id="_1nadRXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadRnioEd6TY5iM33U_sA" name="getError" visibility="public">
+        <ownedParameter xmi:id="_1nadR3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadSHioEd6TY5iM33U_sA" name="getWarning" visibility="public">
+        <ownedParameter xmi:id="_1nadSXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadSnioEd6TY5iM33U_sA" name="XMLParser">
+      <ownedAttribute xmi:id="_1nadS3ioEd6TY5iM33U_sA" name="dbf" type="_1nadkHioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadTHioEd6TY5iM33U_sA" name="nConfigs" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadTXioEd6TY5iM33U_sA" name="nJobs" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadTnioEd6TY5iM33U_sA" name="nQueries" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadT3ioEd6TY5iM33U_sA" name="dNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadUHioEd6TY5iM33U_sA" name="olNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadUXioEd6TY5iM33U_sA" name="oldNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadUnioEd6TY5iM33U_sA" name="orgNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadU3ioEd6TY5iM33U_sA" name="chrNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadVHioEd6TY5iM33U_sA" name="startNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadVXioEd6TY5iM33U_sA" name="endNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadVnioEd6TY5iM33U_sA" name="p5Node" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadV3ioEd6TY5iM33U_sA" name="p3Node" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadWHioEd6TY5iM33U_sA" name="olcNode" visibility="protected" type="_1nadkXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadWXioEd6TY5iM33U_sA" name="oligoLengths" visibility="protected" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadWnioEd6TY5iM33U_sA" name="oligoDistances" visibility="protected" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadW3ioEd6TY5iM33U_sA" name="oligoCount" visibility="protected" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadXHioEd6TY5iM33U_sA" name="xeh" visibility="protected" type="_1nadOnioEd6TY5iM33U_sA" association="_1nadlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadXXioEd6TY5iM33U_sA" name="filterExceptions" visibility="protected" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadXnioEd6TY5iM33U_sA" name="duplicateConfigs" visibility="protected" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadX3ioEd6TY5iM33U_sA" name="config" visibility="private" type="_1nZ2NHioEd6TY5iM33U_sA" association="_1nadmHioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadYHioEd6TY5iM33U_sA" name="queries" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadYXioEd6TY5iM33U_sA" name="configs" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadYnioEd6TY5iM33U_sA" name="jobs" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadY3ioEd6TY5iM33U_sA" name="xmlFile" visibility="private" type="_1nadknioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadZHioEd6TY5iM33U_sA" name="SCHEMA_LANG" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadZXioEd6TY5iM33U_sA" name="SCHEMA_FILE" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadZnioEd6TY5iM33U_sA" name="parse" visibility="public"/>
+      <ownedOperation xmi:id="_1nadZ3ioEd6TY5iM33U_sA" name="validateWithSchema" visibility="private"/>
+      <ownedOperation xmi:id="_1nadaHioEd6TY5iM33U_sA" name="setElementLists" visibility="private">
+        <ownedParameter xmi:id="_1nadaXioEd6TY5iM33U_sA" name="doc" type="_1nadk3ioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadanioEd6TY5iM33U_sA" name="parseQueries" visibility="private"/>
+      <ownedOperation xmi:id="_1nada3ioEd6TY5iM33U_sA" name="checkDomain" visibility="private">
+        <ownedParameter xmi:id="_1nadbHioEd6TY5iM33U_sA" name="nDomain" type="_1nadjnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadbXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadbnioEd6TY5iM33U_sA" name="parseConfiguration" visibility="private">
+        <ownedParameter xmi:id="_1nadb3ioEd6TY5iM33U_sA" name="n" type="_1nadjnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadcHioEd6TY5iM33U_sA" name="parseFilter" visibility="private">
+        <ownedParameter xmi:id="_1nadcXioEd6TY5iM33U_sA" name="n" type="_1nadjnioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadcnioEd6TY5iM33U_sA" name="return" type="_1nZ10nioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadc3ioEd6TY5iM33U_sA" name="parseFilterParameter" visibility="private">
+        <ownedParameter xmi:id="_1naddHioEd6TY5iM33U_sA" name="nParams" type="_1nadkXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1naddXioEd6TY5iM33U_sA" name="return" type="_1nadJXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1naddnioEd6TY5iM33U_sA" name="parseEnzymes" visibility="private">
+        <ownedParameter xmi:id="_1nadd3ioEd6TY5iM33U_sA" name="hm" type="_1nadJXioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadeHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadeXioEd6TY5iM33U_sA" name="parseJob" visibility="public">
+        <ownedParameter xmi:id="_1nadenioEd6TY5iM33U_sA" name="n" type="_1nadjnioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nade3ioEd6TY5iM33U_sA" name="isQueryUnique" visibility="private">
+        <ownedParameter xmi:id="_1nadfHioEd6TY5iM33U_sA" name="q" type="_1nZ2d3ioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadfXioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadfnioEd6TY5iM33U_sA" name="isConfigurationUnique" visibility="private">
+        <ownedParameter xmi:id="_1nadf3ioEd6TY5iM33U_sA" name="c" type="_1nZ2NHioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nadgHioEd6TY5iM33U_sA" name="return" type="_1nZOkXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadgXioEd6TY5iM33U_sA" name="getQueries" visibility="public">
+        <ownedParameter xmi:id="_1nadgnioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadg3ioEd6TY5iM33U_sA" name="getJobs" visibility="public">
+        <ownedParameter xmi:id="_1nadhHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadhXioEd6TY5iM33U_sA" name="getConfigurations" visibility="public">
+        <ownedParameter xmi:id="_1nadhnioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadh3ioEd6TY5iM33U_sA" name="getOligoCount" visibility="public">
+        <ownedParameter xmi:id="_1nadiHioEd6TY5iM33U_sA" name="return" type="_1nZOlnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadiXioEd6TY5iM33U_sA" name="getFilterExceptions" visibility="public">
+        <ownedParameter xmi:id="_1nadinioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nadi3ioEd6TY5iM33U_sA" name="getDuplicateConfigurationExceptions" visibility="public">
+        <ownedParameter xmi:id="_1nadjHioEd6TY5iM33U_sA" name="return" type="_1nZOrnioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadjXioEd6TY5iM33U_sA" name="Exception"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadjnioEd6TY5iM33U_sA" name="Node"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadj3ioEd6TY5iM33U_sA" name="SAXParseException"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadkHioEd6TY5iM33U_sA" name="DocumentBuilderFactory"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadkXioEd6TY5iM33U_sA" name="NodeList"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadknioEd6TY5iM33U_sA" name="File"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadk3ioEd6TY5iM33U_sA" name="Document"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nadlHioEd6TY5iM33U_sA" memberEnd="_1nadKnioEd6TY5iM33U_sA _1nadlXioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nadlXioEd6TY5iM33U_sA" name="target" type="_1nadJ3ioEd6TY5iM33U_sA" association="_1nadlHioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nadlnioEd6TY5iM33U_sA" memberEnd="_1nadXHioEd6TY5iM33U_sA _1nadl3ioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nadl3ioEd6TY5iM33U_sA" name="target" type="_1nadSnioEd6TY5iM33U_sA" association="_1nadlnioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nadmHioEd6TY5iM33U_sA" memberEnd="_1nadX3ioEd6TY5iM33U_sA _1nadmXioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nadmXioEd6TY5iM33U_sA" name="target" type="_1nadSnioEd6TY5iM33U_sA" association="_1nadmHioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nadmnioEd6TY5iM33U_sA" name="ensemblTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadm3ioEd6TY5iM33U_sA" name="GetEnsembleDnaTest">
+      <generalization xmi:id="_1nadnHioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadnXioEd6TY5iM33U_sA" name="ensemble" visibility="private" type="_1nZOtHioEd6TY5iM33U_sA" association="_1nadpXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadnnioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadn3ioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadoHioEd6TY5iM33U_sA" name="testEnsemble" visibility="public"/>
+      <ownedOperation xmi:id="_1nadoXioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nadonioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nado3ioEd6TY5iM33U_sA" name="TestCase"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_1nadpHioEd6TY5iM33U_sA" name="Test"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nadpXioEd6TY5iM33U_sA" memberEnd="_1nadnXioEd6TY5iM33U_sA _1nadpnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nadpnioEd6TY5iM33U_sA" name="target" type="_1nadm3ioEd6TY5iM33U_sA" association="_1nadpXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nadp3ioEd6TY5iM33U_sA" name="filtersTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadqHioEd6TY5iM33U_sA" name="EnzymeFilterTest">
+      <generalization xmi:id="_1nadqXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadqnioEd6TY5iM33U_sA" name="eFilter" visibility="private" type="_1nZ14XioEd6TY5iM33U_sA" association="_1nad1nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadq3ioEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadrHioEd6TY5iM33U_sA" name="oligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadrXioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadrnioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadr3ioEd6TY5iM33U_sA" name="testEnzymeFilter" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadsHioEd6TY5iM33U_sA" name="LowerCaseFilterTest">
+      <generalization xmi:id="_1nadsXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadsnioEd6TY5iM33U_sA" name="lFilter" visibility="private" type="_1nZ1oXioEd6TY5iM33U_sA" association="_1nad2HioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nads3ioEd6TY5iM33U_sA" name="oligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadtHioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadtXioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadtnioEd6TY5iM33U_sA" name="testLowerCaseFilter" visibility="public"/>
+      <ownedOperation xmi:id="_1nadt3ioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1naduHioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1naduXioEd6TY5iM33U_sA" name="GCFilterTest">
+      <generalization xmi:id="_1nadunioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadu3ioEd6TY5iM33U_sA" name="gcFilter" visibility="private" type="_1nZ1sXioEd6TY5iM33U_sA" association="_1nad2nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadvHioEd6TY5iM33U_sA" name="oligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadvXioEd6TY5iM33U_sA" name="setUpBeforeClass" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_1nadvnioEd6TY5iM33U_sA" name="tearDownAfterClass" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_1nadv3ioEd6TY5iM33U_sA" name="setUp" visibility="public"/>
+      <ownedOperation xmi:id="_1nadwHioEd6TY5iM33U_sA" name="tearDown" visibility="public"/>
+      <ownedOperation xmi:id="_1nadwXioEd6TY5iM33U_sA" name="testGCFilter" visibility="public"/>
+      <ownedOperation xmi:id="_1nadwnioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nadw3ioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadxHioEd6TY5iM33U_sA" name="NCountFilterTest">
+      <generalization xmi:id="_1nadxXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadxnioEd6TY5iM33U_sA" name="nFilter" visibility="private" type="_1nZ1wnioEd6TY5iM33U_sA" association="_1nad3HioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadx3ioEd6TY5iM33U_sA" name="oligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nadyHioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadyXioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nadynioEd6TY5iM33U_sA" name="testNFilter" visibility="public"/>
+      <ownedOperation xmi:id="_1nady3ioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nadzHioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nadzXioEd6TY5iM33U_sA" name="FailScoreFilterTest">
+      <generalization xmi:id="_1nadznioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nadz3ioEd6TY5iM33U_sA" name="fFilter" visibility="private" type="_1nZOvXioEd6TY5iM33U_sA" association="_1nad3nioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad0HioEd6TY5iM33U_sA" name="oligos" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nad0XioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad0nioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad03ioEd6TY5iM33U_sA" name="testFailScoreFilter" visibility="public"/>
+      <ownedOperation xmi:id="_1nad1HioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nad1XioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nad1nioEd6TY5iM33U_sA" memberEnd="_1nadqnioEd6TY5iM33U_sA _1nad13ioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nad13ioEd6TY5iM33U_sA" name="target" type="_1nadqHioEd6TY5iM33U_sA" association="_1nad1nioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nad2HioEd6TY5iM33U_sA" memberEnd="_1nadsnioEd6TY5iM33U_sA _1nad2XioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nad2XioEd6TY5iM33U_sA" name="target" type="_1nadsHioEd6TY5iM33U_sA" association="_1nad2HioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nad2nioEd6TY5iM33U_sA" memberEnd="_1nadu3ioEd6TY5iM33U_sA _1nad23ioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nad23ioEd6TY5iM33U_sA" name="target" type="_1naduXioEd6TY5iM33U_sA" association="_1nad2nioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nad3HioEd6TY5iM33U_sA" memberEnd="_1nadxnioEd6TY5iM33U_sA _1nad3XioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nad3XioEd6TY5iM33U_sA" name="target" type="_1nadxHioEd6TY5iM33U_sA" association="_1nad3HioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nad3nioEd6TY5iM33U_sA" memberEnd="_1nadz3ioEd6TY5iM33U_sA _1nad33ioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nad33ioEd6TY5iM33U_sA" name="target" type="_1nadzXioEd6TY5iM33U_sA" association="_1nad3nioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nad4HioEd6TY5iM33U_sA" name="jobTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nad4XioEd6TY5iM33U_sA" name="ConfigurationTest">
+      <generalization xmi:id="_1nad4nioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad43ioEd6TY5iM33U_sA" name="config" visibility="private" type="_1nZ2NHioEd6TY5iM33U_sA" association="_1naeDXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nad5HioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad5XioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad5nioEd6TY5iM33U_sA" name="testConfig" visibility="public"/>
+      <ownedOperation xmi:id="_1nad53ioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nad6HioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nad6XioEd6TY5iM33U_sA" name="QueryTest">
+      <generalization xmi:id="_1nad6nioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad63ioEd6TY5iM33U_sA" name="q1" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1naeD3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad7HioEd6TY5iM33U_sA" name="q2" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1naeEXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nad7XioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad7nioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad73ioEd6TY5iM33U_sA" name="testQuery" visibility="public"/>
+      <ownedOperation xmi:id="_1nad8HioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nad8XioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nad8nioEd6TY5iM33U_sA" name="OligoTest">
+      <generalization xmi:id="_1nad83ioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad9HioEd6TY5iM33U_sA" name="o" visibility="private" type="_1nZ2S3ioEd6TY5iM33U_sA" association="_1naeE3ioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nad9XioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad9nioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nad93ioEd6TY5iM33U_sA" name="testOligo" visibility="public"/>
+      <ownedOperation xmi:id="_1nad-HioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nad-XioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nad-nioEd6TY5iM33U_sA" name="JobTest">
+      <generalization xmi:id="_1nad-3ioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nad_HioEd6TY5iM33U_sA" name="j" visibility="private" type="_1nZ2InioEd6TY5iM33U_sA" association="_1naeFXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nad_XioEd6TY5iM33U_sA" name="setUp" visibility="public"/>
+      <ownedOperation xmi:id="_1nad_nioEd6TY5iM33U_sA" name="tearDown" visibility="public"/>
+      <ownedOperation xmi:id="_1nad_3ioEd6TY5iM33U_sA" name="testJob" visibility="public"/>
+      <ownedOperation xmi:id="_1naeAHioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1naeAXioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1naeAnioEd6TY5iM33U_sA" name="ParseSequenceTest">
+      <generalization xmi:id="_1naeA3ioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeBHioEd6TY5iM33U_sA" name="p1" visibility="private" type="_1nZ2RXioEd6TY5iM33U_sA" association="_1naeF3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeBXioEd6TY5iM33U_sA" name="p2" visibility="private" type="_1nZ2RXioEd6TY5iM33U_sA" association="_1naeGXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeBnioEd6TY5iM33U_sA" name="o1" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeB3ioEd6TY5iM33U_sA" name="o2" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1naeCHioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1naeCXioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1naeCnioEd6TY5iM33U_sA" name="testParseSequence" visibility="public"/>
+      <ownedOperation xmi:id="_1naeC3ioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1naeDHioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeDXioEd6TY5iM33U_sA" memberEnd="_1nad43ioEd6TY5iM33U_sA _1naeDnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeDnioEd6TY5iM33U_sA" name="target" type="_1nad4XioEd6TY5iM33U_sA" association="_1naeDXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeD3ioEd6TY5iM33U_sA" memberEnd="_1nad63ioEd6TY5iM33U_sA _1naeEHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeEHioEd6TY5iM33U_sA" name="target" type="_1nad6XioEd6TY5iM33U_sA" association="_1naeD3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeEXioEd6TY5iM33U_sA" memberEnd="_1nad7HioEd6TY5iM33U_sA _1naeEnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeEnioEd6TY5iM33U_sA" name="target" type="_1nad6XioEd6TY5iM33U_sA" association="_1naeEXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeE3ioEd6TY5iM33U_sA" memberEnd="_1nad9HioEd6TY5iM33U_sA _1naeFHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeFHioEd6TY5iM33U_sA" name="target" type="_1nad8nioEd6TY5iM33U_sA" association="_1naeE3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeFXioEd6TY5iM33U_sA" memberEnd="_1nad_HioEd6TY5iM33U_sA _1naeFnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeFnioEd6TY5iM33U_sA" name="target" type="_1nad-nioEd6TY5iM33U_sA" association="_1naeFXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeF3ioEd6TY5iM33U_sA" memberEnd="_1naeBHioEd6TY5iM33U_sA _1naeGHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeGHioEd6TY5iM33U_sA" name="target" type="_1naeAnioEd6TY5iM33U_sA" association="_1naeF3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1naeGXioEd6TY5iM33U_sA" memberEnd="_1naeBXioEd6TY5iM33U_sA _1naeGnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1naeGnioEd6TY5iM33U_sA" name="target" type="_1naeAnioEd6TY5iM33U_sA" association="_1naeGXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1naeG3ioEd6TY5iM33U_sA" name="queryFactoryTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1naeHHioEd6TY5iM33U_sA" name="QueryFactoryTest">
+      <generalization xmi:id="_1naeHXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeHnioEd6TY5iM33U_sA" name="qf" visibility="private" type="_1nZ2Y3ioEd6TY5iM33U_sA" association="_1nbDy3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeH3ioEd6TY5iM33U_sA" name="q" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbDzXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeIHioEd6TY5iM33U_sA" name="q1" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbDz3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeIXioEd6TY5iM33U_sA" name="q2" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbD0XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeInioEd6TY5iM33U_sA" name="q3" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbD03ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeI3ioEd6TY5iM33U_sA" name="q4" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbD1XioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeJHioEd6TY5iM33U_sA" name="queries" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeJXioEd6TY5iM33U_sA" name="chr1" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeJnioEd6TY5iM33U_sA" name="chr2" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeJ3ioEd6TY5iM33U_sA" name="chr3" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeKHioEd6TY5iM33U_sA" name="chr4" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeKXioEd6TY5iM33U_sA" name="chr5" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeKnioEd6TY5iM33U_sA" name="s1" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeK3ioEd6TY5iM33U_sA" name="s2" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeLHioEd6TY5iM33U_sA" name="s3" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeLXioEd6TY5iM33U_sA" name="s4" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeLnioEd6TY5iM33U_sA" name="s5" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeL3ioEd6TY5iM33U_sA" name="e1" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeMHioEd6TY5iM33U_sA" name="e2" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeMXioEd6TY5iM33U_sA" name="e3" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeMnioEd6TY5iM33U_sA" name="e4" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeM3ioEd6TY5iM33U_sA" name="e5" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naeNHioEd6TY5iM33U_sA" name="r" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1naeNXioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1naeNnioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1naeN3ioEd6TY5iM33U_sA" name="testSortQueries" visibility="public"/>
+      <ownedOperation xmi:id="_1naeOHioEd6TY5iM33U_sA" name="testJoinQueries" visibility="public"/>
+      <ownedOperation xmi:id="_1naeOXioEd6TY5iM33U_sA" name="testSeparateSequenceToQuery" visibility="public"/>
+      <ownedOperation xmi:id="_1naeOnioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1naeO3ioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1naePHioEd6TY5iM33U_sA" name="RangeTest">
+      <generalization xmi:id="_1naePXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1naePnioEd6TY5iM33U_sA" name="cq" visibility="public" type="_1nZ1-nioEd6TY5iM33U_sA" association="_1nbD13ioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1naeP3ioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1naeQHioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbDwHioEd6TY5iM33U_sA" name="testRange" visibility="public"/>
+      <ownedOperation xmi:id="_1nbDwXioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nbDwnioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nbDw3ioEd6TY5iM33U_sA" name="QueryTest">
+      <generalization xmi:id="_1nbDxHioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbDxXioEd6TY5iM33U_sA" name="cr" visibility="private" type="_1nZ2d3ioEd6TY5iM33U_sA" association="_1nbD2XioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nbDxnioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbDx3ioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbDyHioEd6TY5iM33U_sA" name="testQuery" visibility="public"/>
+      <ownedOperation xmi:id="_1nbDyXioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nbDynioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbDy3ioEd6TY5iM33U_sA" memberEnd="_1naeHnioEd6TY5iM33U_sA _1nbDzHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbDzHioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbDy3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbDzXioEd6TY5iM33U_sA" memberEnd="_1naeH3ioEd6TY5iM33U_sA _1nbDznioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbDznioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbDzXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbDz3ioEd6TY5iM33U_sA" memberEnd="_1naeIHioEd6TY5iM33U_sA _1nbD0HioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD0HioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbDz3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbD0XioEd6TY5iM33U_sA" memberEnd="_1naeIXioEd6TY5iM33U_sA _1nbD0nioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD0nioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbD0XioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbD03ioEd6TY5iM33U_sA" memberEnd="_1naeInioEd6TY5iM33U_sA _1nbD1HioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD1HioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbD03ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbD1XioEd6TY5iM33U_sA" memberEnd="_1naeI3ioEd6TY5iM33U_sA _1nbD1nioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD1nioEd6TY5iM33U_sA" name="target" type="_1naeHHioEd6TY5iM33U_sA" association="_1nbD1XioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbD13ioEd6TY5iM33U_sA" memberEnd="_1naePnioEd6TY5iM33U_sA _1nbD2HioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD2HioEd6TY5iM33U_sA" name="target" type="_1naePHioEd6TY5iM33U_sA" association="_1nbD13ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbD2XioEd6TY5iM33U_sA" memberEnd="_1nbDxXioEd6TY5iM33U_sA _1nbD2nioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbD2nioEd6TY5iM33U_sA" name="target" type="_1nbDw3ioEd6TY5iM33U_sA" association="_1nbD2XioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nbD23ioEd6TY5iM33U_sA" name="serverTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nbD3HioEd6TY5iM33U_sA" name="GetRequestTest">
+      <generalization xmi:id="_1nbD3XioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nbD3nioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbD33ioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbD4HioEd6TY5iM33U_sA" name="testSendGetRequest" visibility="public"/>
+      <ownedOperation xmi:id="_1nbD4XioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nbD4nioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nbD43ioEd6TY5iM33U_sA" name="ucscTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nbD5HioEd6TY5iM33U_sA" name="GetUCSCDnaTest">
+      <generalization xmi:id="_1nbD5XioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD5nioEd6TY5iM33U_sA" name="test" type="_1nadJXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD53ioEd6TY5iM33U_sA" name="gr" visibility="private" type="_1nZ2snioEd6TY5iM33U_sA" association="_1nbEAXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD6HioEd6TY5iM33U_sA" name="gt" visibility="private" type="_1nadBXioEd6TY5iM33U_sA" association="_1nbEA3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD6XioEd6TY5iM33U_sA" name="c" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD6nioEd6TY5iM33U_sA" name="length" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD63ioEd6TY5iM33U_sA" name="padding3" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD7HioEd6TY5iM33U_sA" name="padding5" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD7XioEd6TY5iM33U_sA" name="organism" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD7nioEd6TY5iM33U_sA" name="minD" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD73ioEd6TY5iM33U_sA" name="id" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD8HioEd6TY5iM33U_sA" name="cr" visibility="private" type="_1nZ2NHioEd6TY5iM33U_sA" association="_1nbEBXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD8XioEd6TY5iM33U_sA" name="query" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD8nioEd6TY5iM33U_sA" name="g" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD83ioEd6TY5iM33U_sA" name="db" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD9HioEd6TY5iM33U_sA" name="maskRepeats" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD9XioEd6TY5iM33U_sA" name="boolShadeRepeats" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD9nioEd6TY5iM33U_sA" name="casing" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD93ioEd6TY5iM33U_sA" name="repMasking" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD-HioEd6TY5iM33U_sA" name="revComp" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD-XioEd6TY5iM33U_sA" name="l" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbD-nioEd6TY5iM33U_sA" name="r" visibility="protected" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nbD-3ioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbD_HioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbD_XioEd6TY5iM33U_sA" name="testCreateUrl" visibility="public"/>
+      <ownedOperation xmi:id="_1nbD_nioEd6TY5iM33U_sA" name="testIsChromosomeValid" visibility="public"/>
+      <ownedOperation xmi:id="_1nbD_3ioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nbEAHioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbEAXioEd6TY5iM33U_sA" memberEnd="_1nbD53ioEd6TY5iM33U_sA _1nbEAnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbEAnioEd6TY5iM33U_sA" name="target" type="_1nbD5HioEd6TY5iM33U_sA" association="_1nbEAXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbEA3ioEd6TY5iM33U_sA" memberEnd="_1nbD6HioEd6TY5iM33U_sA _1nbEBHioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbEBHioEd6TY5iM33U_sA" name="target" type="_1nbD5HioEd6TY5iM33U_sA" association="_1nbEA3ioEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbEBXioEd6TY5iM33U_sA" memberEnd="_1nbD8HioEd6TY5iM33U_sA _1nbEBnioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbEBnioEd6TY5iM33U_sA" name="target" type="_1nbD5HioEd6TY5iM33U_sA" association="_1nbEBXioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1nbEB3ioEd6TY5iM33U_sA" name="xmlTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_1nbECHioEd6TY5iM33U_sA" name="XMLParserTest">
+      <generalization xmi:id="_1nbECXioEd6TY5iM33U_sA" general="_1nado3ioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbECnioEd6TY5iM33U_sA" name="x" visibility="private" type="_1nadSnioEd6TY5iM33U_sA" association="_1nbEHHioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbEC3ioEd6TY5iM33U_sA" name="test" visibility="private" type="_1nZOlnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbEDHioEd6TY5iM33U_sA" name="testFiles" visibility="private" type="_1nZOrnioEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_1nbEDXioEd6TY5iM33U_sA" name="HEADER" visibility="private" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_1nbEDnioEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbED3ioEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_1nbEEHioEd6TY5iM33U_sA" name="test1" visibility="public"/>
+      <ownedOperation xmi:id="_1nbEEXioEd6TY5iM33U_sA" name="test2" visibility="public"/>
+      <ownedOperation xmi:id="_1nbEEnioEd6TY5iM33U_sA" name="test3" visibility="public"/>
+      <ownedOperation xmi:id="_1nbEE3ioEd6TY5iM33U_sA" name="readTestFile" visibility="public">
+        <ownedParameter xmi:id="_1nbEFHioEd6TY5iM33U_sA" name="f" type="_1nadknioEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_1nbEFXioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nbEFnioEd6TY5iM33U_sA" name="readObjects" visibility="public">
+        <ownedParameter xmi:id="_1nbEF3ioEd6TY5iM33U_sA" name="return" type="_1nZOrXioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nbEGHioEd6TY5iM33U_sA" name="addTestFile" visibility="public">
+        <ownedParameter xmi:id="_1nbEGXioEd6TY5iM33U_sA" name="file" type="_1nZOrXioEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1nbEGnioEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_1nbEG3ioEd6TY5iM33U_sA" name="return" type="_1nadpHioEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1nbEHHioEd6TY5iM33U_sA" memberEnd="_1nbECnioEd6TY5iM33U_sA _1nbEHXioEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_1nbEHXioEd6TY5iM33U_sA" name="target" type="_1nbECHioEd6TY5iM33U_sA" association="_1nbEHHioEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

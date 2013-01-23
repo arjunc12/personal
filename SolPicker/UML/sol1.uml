@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_neq10HinEd6TY5iM33U_sA">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq10XinEd6TY5iM33U_sA" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq10ninEd6TY5iM33U_sA" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq103inEd6TY5iM33U_sA" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq11HinEd6TY5iM33U_sA" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq11XinEd6TY5iM33U_sA" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq11ninEd6TY5iM33U_sA" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq113inEd6TY5iM33U_sA" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_neq12HinEd6TY5iM33U_sA" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neq12XinEd6TY5iM33U_sA" name="blast">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq12ninEd6TY5iM33U_sA" name="BlastRequest">
+      <ownedAttribute xmi:id="_neq123inEd6TY5iM33U_sA" name="oligo" visibility="private" type="_nesrIHinEd6TY5iM33U_sA" association="_neq173inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq13HinEd6TY5iM33U_sA" name="BlastFactory">
+      <ownedAttribute xmi:id="_neq13XinEd6TY5iM33U_sA" name="request" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq13ninEd6TY5iM33U_sA" name="oligo" visibility="private" type="_nesrIHinEd6TY5iM33U_sA" association="_neq18XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq133inEd6TY5iM33U_sA" name="al" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq14HinEd6TY5iM33U_sA" name="Blast" visibility="public">
+        <ownedParameter xmi:id="_neq14XinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq14ninEd6TY5iM33U_sA" name="wait" visibility="public">
+        <ownedParameter xmi:id="_neq143inEd6TY5iM33U_sA" name="n" type="_neq11ninEd6TY5iM33U_sA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq15HinEd6TY5iM33U_sA" name="BlastPutCommand">
+      <ownedAttribute xmi:id="_neq15XinEd6TY5iM33U_sA" name="query" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq15ninEd6TY5iM33U_sA" name="cmd" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq153inEd6TY5iM33U_sA" name="database" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq16HinEd6TY5iM33U_sA" name="program" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq16XinEd6TY5iM33U_sA" name="filter" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq16ninEd6TY5iM33U_sA" name="hitListSize" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq163inEd6TY5iM33U_sA" name="getPutCommand" visibility="public">
+        <ownedParameter xmi:id="_neq17HinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_neq17XinEd6TY5iM33U_sA" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_neq17ninEd6TY5iM33U_sA" name="ArrayList"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neq173inEd6TY5iM33U_sA" memberEnd="_neq123inEd6TY5iM33U_sA _neq18HinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neq18HinEd6TY5iM33U_sA" name="target" type="_neq12ninEd6TY5iM33U_sA" association="_neq173inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neq18XinEd6TY5iM33U_sA" memberEnd="_neq13ninEd6TY5iM33U_sA _neq18ninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neq18ninEd6TY5iM33U_sA" name="target" type="_neq13HinEd6TY5iM33U_sA" association="_neq18XinEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neq183inEd6TY5iM33U_sA" name="ensembl">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq19HinEd6TY5iM33U_sA" name="GetEnsembleDna">
+      <generalization xmi:id="_neq19XinEd6TY5iM33U_sA" general="_netSZninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq19ninEd6TY5iM33U_sA" name="createURL" visibility="public"/>
+      <ownedOperation xmi:id="_neq193inEd6TY5iM33U_sA" name="cutHeader" visibility="public">
+        <ownedParameter xmi:id="_neq1-HinEd6TY5iM33U_sA" name="fasta" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neq1-XinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq1-ninEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_neq1-3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neq1_HinEd6TY5iM33U_sA" name="filters">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq1_XinEd6TY5iM33U_sA" name="FailScoreFilter">
+      <generalization xmi:id="_neq1_ninEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq1_3inEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq2AHinEd6TY5iM33U_sA" name="maxFail" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq2AXinEd6TY5iM33U_sA" name="failScore" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq2AninEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_neq2A3inEd6TY5iM33U_sA" name="oligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neq2BHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2BXinEd6TY5iM33U_sA" name="getTMScore" visibility="private">
+        <ownedParameter xmi:id="_neq2BninEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2B3inEd6TY5iM33U_sA" name="getHomoPolymerScore" visibility="private">
+        <ownedParameter xmi:id="_neq2CHinEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2CXinEd6TY5iM33U_sA" name="fiveInARow" visibility="private">
+        <ownedParameter xmi:id="_neq2CninEd6TY5iM33U_sA" name="poly" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neq2C3inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2DHinEd6TY5iM33U_sA" name="sevenConsecutive" visibility="private">
+        <ownedParameter xmi:id="_neq2DXinEd6TY5iM33U_sA" name="poly" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neq2DninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2D3inEd6TY5iM33U_sA" name="getBaseFractionScore" visibility="private">
+        <ownedParameter xmi:id="_neq2EHinEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2EXinEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_neq2EninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2E3inEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_neq2FHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2FXinEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_neq2FninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq2F3inEd6TY5iM33U_sA" name="BlastFilter">
+      <generalization xmi:id="_neq2GHinEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq2GXinEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq2GninEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_neq2G3inEd6TY5iM33U_sA" name="oligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neq2HHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2HXinEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_neq2HninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2H3inEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_neq2IHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neq2IXinEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_neq2IninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neq2I3inEd6TY5iM33U_sA" name="LowerCaseFilter">
+      <generalization xmi:id="_neq2JHinEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq2JXinEd6TY5iM33U_sA" name="maxLower" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neq2JninEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neq2J3inEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_nerc4HinEd6TY5iM33U_sA" name="validOligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerc4XinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc4ninEd6TY5iM33U_sA" name="getLowerCaseCount" visibility="private">
+        <ownedParameter xmi:id="_nerc43inEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerc5HinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc5XinEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_nerc5ninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc53inEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_nerc6HinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc6XinEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nerc6ninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nerc63inEd6TY5iM33U_sA" name="GCFilter">
+      <generalization xmi:id="_nerc7HinEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerc7XinEd6TY5iM33U_sA" name="minGC" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerc7ninEd6TY5iM33U_sA" name="maxGC" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerc73inEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nerc8HinEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_nerc8XinEd6TY5iM33U_sA" name="validOligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerc8ninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc83inEd6TY5iM33U_sA" name="getGCPercent" visibility="private">
+        <ownedParameter xmi:id="_nerc9HinEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerc9XinEd6TY5iM33U_sA" name="return" type="_neq11HinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc9ninEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_nerc93inEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc-HinEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_nerc-XinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerc-ninEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nerc-3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nerc_HinEd6TY5iM33U_sA" name="NCountFilter">
+      <generalization xmi:id="_nerc_XinEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerc_ninEd6TY5iM33U_sA" name="maxN" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerc_3inEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nerdAHinEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_nerdAXinEd6TY5iM33U_sA" name="validOligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerdAninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdA3inEd6TY5iM33U_sA" name="getNCount" visibility="private">
+        <ownedParameter xmi:id="_nerdBHinEd6TY5iM33U_sA" name="o" type="_nesrIHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerdBXinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdBninEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_nerdB3inEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdCHinEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_nerdCXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdCninEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nerdC3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nerdDHinEd6TY5iM33U_sA" name="Filter">
+      <ownedAttribute xmi:id="_nerdDXinEd6TY5iM33U_sA" name="invalidOligos" visibility="protected" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nerdDninEd6TY5iM33U_sA" name="filter" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_nerdD3inEd6TY5iM33U_sA" name="oligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerdEHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdEXinEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_nerdEninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdE3inEd6TY5iM33U_sA" name="getFilterType" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_nerdFHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdFXinEd6TY5iM33U_sA" name="toXML" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_nerdFninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdF3inEd6TY5iM33U_sA" name="getInvalidOligos" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nerdGHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdGXinEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_nerdGninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nerdG3inEd6TY5iM33U_sA" name="EnzymeFilter">
+      <generalization xmi:id="_nerdHHinEd6TY5iM33U_sA" general="_nerdDHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerdHXinEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nerdHninEd6TY5iM33U_sA" name="rejectedOligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nerdH3inEd6TY5iM33U_sA" name="filter" visibility="public">
+        <ownedParameter xmi:id="_nerdIHinEd6TY5iM33U_sA" name="validOligos" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerdIXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nerdIninEd6TY5iM33U_sA" name="getComplement" visibility="private">
+        <ownedParameter xmi:id="_nerdI3inEd6TY5iM33U_sA" name="sequence" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nerdJHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesD8HinEd6TY5iM33U_sA" name="getReverse" visibility="private">
+        <ownedParameter xmi:id="_nesD8XinEd6TY5iM33U_sA" name="sequence" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesD8ninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesD83inEd6TY5iM33U_sA" name="searchForMatch" visibility="private">
+        <ownedParameter xmi:id="_nesD9HinEd6TY5iM33U_sA" name="oligo" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesD9XinEd6TY5iM33U_sA" name="enzyme" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesD9ninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesD93inEd6TY5iM33U_sA" name="getRejectedOligos" visibility="public">
+        <ownedParameter xmi:id="_nesD-HinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesD-XinEd6TY5iM33U_sA" name="getFilterType" visibility="public">
+        <ownedParameter xmi:id="_nesD-ninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesD-3inEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nesD_HinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nesD_XinEd6TY5iM33U_sA" name="job">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesD_ninEd6TY5iM33U_sA" name="JobFactory"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesD_3inEd6TY5iM33U_sA" name="Range">
+      <ownedAttribute xmi:id="_nesEAHinEd6TY5iM33U_sA" name="organism" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEAXinEd6TY5iM33U_sA" name="chromosomeNumber" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEAninEd6TY5iM33U_sA" name="startBase" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEA3inEd6TY5iM33U_sA" name="endBase" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEBHinEd6TY5iM33U_sA" name="queries" visibility="public" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEBXinEd6TY5iM33U_sA" name="sequence" visibility="public" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nesEBninEd6TY5iM33U_sA" name="getSequence" visibility="public">
+        <ownedParameter xmi:id="_nesEB3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesECHinEd6TY5iM33U_sA" name="getQueries" visibility="public">
+        <ownedParameter xmi:id="_nesECXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesECninEd6TY5iM33U_sA" name="addQuery" visibility="public">
+        <ownedParameter xmi:id="_nesEC3inEd6TY5iM33U_sA" name="q" type="_netSJXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEDHinEd6TY5iM33U_sA" name="setStartBase" visibility="public">
+        <ownedParameter xmi:id="_nesEDXinEd6TY5iM33U_sA" name="startBase" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEDninEd6TY5iM33U_sA" name="setEndBase" visibility="public">
+        <ownedParameter xmi:id="_nesED3inEd6TY5iM33U_sA" name="endBase" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEEHinEd6TY5iM33U_sA" name="setChromosomeNumber" visibility="public">
+        <ownedParameter xmi:id="_nesEEXinEd6TY5iM33U_sA" name="chr" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEEninEd6TY5iM33U_sA" name="setOrganism" visibility="public">
+        <ownedParameter xmi:id="_nesEE3inEd6TY5iM33U_sA" name="organism" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEFHinEd6TY5iM33U_sA" name="getStartBase" visibility="public">
+        <ownedParameter xmi:id="_nesEFXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEFninEd6TY5iM33U_sA" name="getEndBase" visibility="public">
+        <ownedParameter xmi:id="_nesEF3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEGHinEd6TY5iM33U_sA" name="getChromosomeNumber" visibility="public">
+        <ownedParameter xmi:id="_nesEGXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEGninEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_nesEG3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEHHinEd6TY5iM33U_sA" name="size" visibility="public">
+        <ownedParameter xmi:id="_nesEHXinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEHninEd6TY5iM33U_sA" name="compareStringAsInt" visibility="public">
+        <ownedParameter xmi:id="_nesEH3inEd6TY5iM33U_sA" name="a" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesEIHinEd6TY5iM33U_sA" name="b" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesEIXinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEIninEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_nesEI3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesEJHinEd6TY5iM33U_sA" name="equals" visibility="public">
+        <ownedParameter xmi:id="_nesEJXinEd6TY5iM33U_sA" name="r" type="_nesD_3inEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesEJninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesEJ3inEd6TY5iM33U_sA" name="Job">
+      <ownedAttribute xmi:id="_nesEKHinEd6TY5iM33U_sA" name="configurationID" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEKXinEd6TY5iM33U_sA" name="queryID" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEKninEd6TY5iM33U_sA" name="config" visibility="private" type="_nesrCXinEd6TY5iM33U_sA" association="_netSW3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesEK3inEd6TY5iM33U_sA" name="q" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_netSXXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesELHinEd6TY5iM33U_sA" name="id" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesELXinEd6TY5iM33U_sA" name="ID" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nesELninEd6TY5iM33U_sA" name="performJob" visibility="public"/>
+      <ownedOperation xmi:id="_nesEL3inEd6TY5iM33U_sA" name="doJob" visibility="public">
+        <ownedParameter xmi:id="_nesrAHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrAXinEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_nesrAninEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrA3inEd6TY5iM33U_sA" name="getConfigurationID" visibility="public">
+        <ownedParameter xmi:id="_nesrBHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrBXinEd6TY5iM33U_sA" name="getQueryID" visibility="public">
+        <ownedParameter xmi:id="_nesrBninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrB3inEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nesrCHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesrCXinEd6TY5iM33U_sA" name="Configuration">
+      <ownedAttribute xmi:id="_nesrCninEd6TY5iM33U_sA" name="filters" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrC3inEd6TY5iM33U_sA" name="id" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrDHinEd6TY5iM33U_sA" name="identity" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrDXinEd6TY5iM33U_sA" name="Identities" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nesrDninEd6TY5iM33U_sA" name="addFilter" visibility="public">
+        <ownedParameter xmi:id="_nesrD3inEd6TY5iM33U_sA" name="f" type="_nerdDHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrEHinEd6TY5iM33U_sA" name="getFilters" visibility="public">
+        <ownedParameter xmi:id="_nesrEXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrEninEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_nesrE3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrFHinEd6TY5iM33U_sA" name="setID" visibility="public">
+        <ownedParameter xmi:id="_nesrFXinEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrFninEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_nesrF3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrGHinEd6TY5iM33U_sA" name="getIdentity" visibility="public">
+        <ownedParameter xmi:id="_nesrGXinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesrGninEd6TY5iM33U_sA" name="ParseSequence">
+      <ownedAttribute xmi:id="_nesrG3inEd6TY5iM33U_sA" name="sequence" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrHHinEd6TY5iM33U_sA" name="oLength" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrHXinEd6TY5iM33U_sA" name="minDistance" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nesrHninEd6TY5iM33U_sA" name="parse" visibility="public">
+        <ownedParameter xmi:id="_nesrH3inEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nesrIHinEd6TY5iM33U_sA" name="Oligo">
+      <ownedAttribute xmi:id="_nesrIXinEd6TY5iM33U_sA" name="sequence" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrIninEd6TY5iM33U_sA" name="reasonForRejection" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrI3inEd6TY5iM33U_sA" name="hasBeenRejected" visibility="private" type="_neq10XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrJHinEd6TY5iM33U_sA" name="complementaryEnzyme" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrJXinEd6TY5iM33U_sA" name="id" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nesrJninEd6TY5iM33U_sA" name="ID" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nesrJ3inEd6TY5iM33U_sA" name="reject" visibility="public">
+        <ownedParameter xmi:id="_nesrKHinEd6TY5iM33U_sA" name="reason" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrKXinEd6TY5iM33U_sA" name="reject" visibility="public">
+        <ownedParameter xmi:id="_nesrKninEd6TY5iM33U_sA" name="reason" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nesrK3inEd6TY5iM33U_sA" name="enzyme" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrLHinEd6TY5iM33U_sA" name="getComplementaryEnzyme" visibility="public">
+        <ownedParameter xmi:id="_nesrLXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrLninEd6TY5iM33U_sA" name="getReasonForRejection" visibility="public">
+        <ownedParameter xmi:id="_nesrL3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrMHinEd6TY5iM33U_sA" name="getSequence" visibility="public">
+        <ownedParameter xmi:id="_nesrMXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrMninEd6TY5iM33U_sA" name="toString" visibility="public">
+        <ownedParameter xmi:id="_nesrM3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrNHinEd6TY5iM33U_sA" name="hasBeenRejected" visibility="public">
+        <ownedParameter xmi:id="_nesrNXinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nesrNninEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_netSEHinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_netSEXinEd6TY5iM33U_sA" name="QueryFactory">
+      <ownedAttribute xmi:id="_netSEninEd6TY5iM33U_sA" name="min_distance" visibility="public" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSE3inEd6TY5iM33U_sA" name="ranges" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_netSFHinEd6TY5iM33U_sA" name="sortQueries" visibility="protected">
+        <ownedParameter xmi:id="_netSFXinEd6TY5iM33U_sA" name="q" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSFninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSF3inEd6TY5iM33U_sA" name="joinQueries" visibility="public">
+        <ownedParameter xmi:id="_netSGHinEd6TY5iM33U_sA" name="queries" type="_neq17ninEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSGXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSGninEd6TY5iM33U_sA" name="getRangeArray" visibility="public">
+        <ownedParameter xmi:id="_netSG3inEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSHHinEd6TY5iM33U_sA" name="separateSequenceToQuery" visibility="public">
+        <ownedParameter xmi:id="_netSHXinEd6TY5iM33U_sA" name="range" type="_nesD_3inEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSHninEd6TY5iM33U_sA" name="sequence" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSH3inEd6TY5iM33U_sA" name="getMinDistance" visibility="public">
+        <ownedParameter xmi:id="_netSIHinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSIXinEd6TY5iM33U_sA" name="compareStringAsInt" visibility="private">
+        <ownedParameter xmi:id="_netSIninEd6TY5iM33U_sA" name="a" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSI3inEd6TY5iM33U_sA" name="b" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSJHinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_netSJXinEd6TY5iM33U_sA" name="Query">
+      <ownedAttribute xmi:id="_netSJninEd6TY5iM33U_sA" name="chr" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSJ3inEd6TY5iM33U_sA" name="start" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSKHinEd6TY5iM33U_sA" name="end" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSKXinEd6TY5iM33U_sA" name="id" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSKninEd6TY5iM33U_sA" name="organism" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSK3inEd6TY5iM33U_sA" name="p5" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSLHinEd6TY5iM33U_sA" name="p3" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSLXinEd6TY5iM33U_sA" name="domain" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSLninEd6TY5iM33U_sA" name="oligoLength" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSL3inEd6TY5iM33U_sA" name="minDistance" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_netSMHinEd6TY5iM33U_sA" name="setOrganism" visibility="public">
+        <ownedParameter xmi:id="_netSMXinEd6TY5iM33U_sA" name="org" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSMninEd6TY5iM33U_sA" name="set5Padding" visibility="public">
+        <ownedParameter xmi:id="_netSM3inEd6TY5iM33U_sA" name="pad" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSNHinEd6TY5iM33U_sA" name="set5Padding" visibility="public">
+        <ownedParameter xmi:id="_netSNXinEd6TY5iM33U_sA" name="pad" type="_neq11ninEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSNninEd6TY5iM33U_sA" name="set3Padding" visibility="public">
+        <ownedParameter xmi:id="_netSN3inEd6TY5iM33U_sA" name="pad" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSOHinEd6TY5iM33U_sA" name="set3Padding" visibility="public">
+        <ownedParameter xmi:id="_netSOXinEd6TY5iM33U_sA" name="pad" type="_neq11ninEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSOninEd6TY5iM33U_sA" name="setDomain" visibility="public">
+        <ownedParameter xmi:id="_netSO3inEd6TY5iM33U_sA" name="dom" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSPHinEd6TY5iM33U_sA" name="setDomain" visibility="public">
+        <ownedParameter xmi:id="_netSPXinEd6TY5iM33U_sA" name="d" type="_netSZninEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSPninEd6TY5iM33U_sA" name="setMinDistance" visibility="public">
+        <ownedParameter xmi:id="_netSP3inEd6TY5iM33U_sA" name="distance" type="_neq11ninEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSQHinEd6TY5iM33U_sA" name="setMinDistance" visibility="public">
+        <ownedParameter xmi:id="_netSQXinEd6TY5iM33U_sA" name="distance" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSQninEd6TY5iM33U_sA" name="getChromosomeIdentifier" visibility="public">
+        <ownedParameter xmi:id="_netSQ3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSRHinEd6TY5iM33U_sA" name="getStart" visibility="public">
+        <ownedParameter xmi:id="_netSRXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSRninEd6TY5iM33U_sA" name="getEnd" visibility="public">
+        <ownedParameter xmi:id="_netSR3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSSHinEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_netSSXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSSninEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_netSS3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSTHinEd6TY5iM33U_sA" name="get5Padding" visibility="public">
+        <ownedParameter xmi:id="_netSTXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSTninEd6TY5iM33U_sA" name="get3Padding" visibility="public">
+        <ownedParameter xmi:id="_netST3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSUHinEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_netSUXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSUninEd6TY5iM33U_sA" name="getOligoLength" visibility="public">
+        <ownedParameter xmi:id="_netSU3inEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSVHinEd6TY5iM33U_sA" name="getMinDIstance" visibility="public">
+        <ownedParameter xmi:id="_netSVXinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSVninEd6TY5iM33U_sA" name="compareTo" visibility="public">
+        <ownedParameter xmi:id="_netSV3inEd6TY5iM33U_sA" name="o" type="_netSJXinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSWHinEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSWXinEd6TY5iM33U_sA" name="toXML" visibility="public">
+        <ownedParameter xmi:id="_netSWninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_netSW3inEd6TY5iM33U_sA" memberEnd="_nesEKninEd6TY5iM33U_sA _netSXHinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_netSXHinEd6TY5iM33U_sA" name="target" type="_nesEJ3inEd6TY5iM33U_sA" association="_netSW3inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_netSXXinEd6TY5iM33U_sA" memberEnd="_nesEK3inEd6TY5iM33U_sA _netSXninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_netSXninEd6TY5iM33U_sA" name="target" type="_nesEJ3inEd6TY5iM33U_sA" association="_netSXXinEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_netSX3inEd6TY5iM33U_sA" name="server">
+    <packagedElement xmi:type="uml:Class" xmi:id="_netSYHinEd6TY5iM33U_sA" name="GetRequest">
+      <ownedAttribute xmi:id="_netSYXinEd6TY5iM33U_sA" name="result" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSYninEd6TY5iM33U_sA" name="url" visibility="private" type="_net5JninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_netSY3inEd6TY5iM33U_sA" name="sendGetRequest" visibility="public"/>
+      <ownedOperation xmi:id="_netSZHinEd6TY5iM33U_sA" name="getResult" visibility="public">
+        <ownedParameter xmi:id="_netSZXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_netSZninEd6TY5iM33U_sA" name="Domain">
+      <ownedAttribute xmi:id="_netSZ3inEd6TY5iM33U_sA" name="finalUrl" visibility="protected" type="_net5JninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSaHinEd6TY5iM33U_sA" name="urlStr" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSaXinEd6TY5iM33U_sA" name="chr" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSaninEd6TY5iM33U_sA" name="first" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSa3inEd6TY5iM33U_sA" name="second" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSbHinEd6TY5iM33U_sA" name="organism" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSbXinEd6TY5iM33U_sA" name="p5" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSbninEd6TY5iM33U_sA" name="p3" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_netSb3inEd6TY5iM33U_sA" name="chromosome_number" visibility="protected" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_netScHinEd6TY5iM33U_sA" name="getFirst" visibility="public">
+        <ownedParameter xmi:id="_netScXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netScninEd6TY5iM33U_sA" name="getSecond" visibility="public">
+        <ownedParameter xmi:id="_netSc3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSdHinEd6TY5iM33U_sA" name="getChromosome" visibility="public">
+        <ownedParameter xmi:id="_netSdXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSdninEd6TY5iM33U_sA" name="getURL" visibility="public">
+        <ownedParameter xmi:id="_netSd3inEd6TY5iM33U_sA" name="return" type="_net5JninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSeHinEd6TY5iM33U_sA" name="getOrganism" visibility="public">
+        <ownedParameter xmi:id="_netSeXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSeninEd6TY5iM33U_sA" name="setURL" visibility="public">
+        <ownedParameter xmi:id="_netSe3inEd6TY5iM33U_sA" name="url" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSfHinEd6TY5iM33U_sA" name="isChromosomeValid" visibility="public">
+        <ownedParameter xmi:id="_netSfXinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_netSfninEd6TY5iM33U_sA" name="isEmpty" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_netSf3inEd6TY5iM33U_sA" name="s" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_netSgHinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_net5IHinEd6TY5iM33U_sA" name="createURL" visibility="protected" isAbstract="true"/>
+      <ownedOperation xmi:id="_net5IXinEd6TY5iM33U_sA" name="cutHeader" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_net5IninEd6TY5iM33U_sA" name="fasta" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_net5I3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_net5JHinEd6TY5iM33U_sA" name="getDomain" visibility="public" isAbstract="true">
+        <ownedParameter xmi:id="_net5JXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_net5JninEd6TY5iM33U_sA" name="URL"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_net5J3inEd6TY5iM33U_sA" name="solPicker">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nevuUHinEd6TY5iM33U_sA" name="CDF_Normal">
+      <ownedOperation xmi:id="_nevuUXinEd6TY5iM33U_sA" name="xnormi" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nevuUninEd6TY5iM33U_sA" name="p" type="_neq11HinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nevuU3inEd6TY5iM33U_sA" name="return" type="_neq11HinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nevuVHinEd6TY5iM33U_sA" name="normp" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nevuVXinEd6TY5iM33U_sA" name="z" type="_neq11HinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_nevuVninEd6TY5iM33U_sA" name="return" type="_neq11HinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nevuV3inEd6TY5iM33U_sA" name="solPickerGUI">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nevuWHinEd6TY5iM33U_sA" name="ExecutePanel">
+      <generalization xmi:id="_nevuWXinEd6TY5iM33U_sA" general="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nevuWninEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nevuW3inEd6TY5iM33U_sA" name="writeToXMLButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nevuXHinEd6TY5iM33U_sA" name="doJobsButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nevuXXinEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_nevuXninEd6TY5iM33U_sA" name="setRandomColor" visibility="private">
+        <ownedParameter xmi:id="_nevuX3inEd6TY5iM33U_sA" name="c" type="_new8eXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nevuYHinEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_nevuYXinEd6TY5iM33U_sA" name="return" type="_new8eninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nevuYninEd6TY5iM33U_sA" name="AddConfigurationPanel">
+      <generalization xmi:id="_nevuY3inEd6TY5iM33U_sA" general="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVYHinEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVYXinEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVYninEd6TY5iM33U_sA" name="configs" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVY3inEd6TY5iM33U_sA" name="enzymeFilterCheck" visibility="private" type="_new8e3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVZHinEd6TY5iM33U_sA" name="enzymeNameLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVZXinEd6TY5iM33U_sA" name="enzymeNameField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVZninEd6TY5iM33U_sA" name="enzymeSequenceLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVZ3inEd6TY5iM33U_sA" name="enzymeSequenceField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVaHinEd6TY5iM33U_sA" name="addEnzymeButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVaXinEd6TY5iM33U_sA" name="removeEnzymeButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVaninEd6TY5iM33U_sA" name="clearEnzymesButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVa3inEd6TY5iM33U_sA" name="failScoreCheck" visibility="private" type="_new8e3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVbHinEd6TY5iM33U_sA" name="maxFailLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVbXinEd6TY5iM33U_sA" name="maxFailField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVbninEd6TY5iM33U_sA" name="gcCheck" visibility="private" type="_new8e3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVb3inEd6TY5iM33U_sA" name="minGCLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVcHinEd6TY5iM33U_sA" name="minGCField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVcXinEd6TY5iM33U_sA" name="maxGCLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVcninEd6TY5iM33U_sA" name="maxGCField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVc3inEd6TY5iM33U_sA" name="lowerCheck" visibility="private" type="_new8e3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVdHinEd6TY5iM33U_sA" name="maxLowerLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVdXinEd6TY5iM33U_sA" name="maxLowerField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVdninEd6TY5iM33U_sA" name="nCheck" visibility="private" type="_new8e3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVd3inEd6TY5iM33U_sA" name="maxNLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVeHinEd6TY5iM33U_sA" name="maxNField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVeXinEd6TY5iM33U_sA" name="enzymeInfoPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVeninEd6TY5iM33U_sA" name="enzymeButtonsPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVe3inEd6TY5iM33U_sA" name="finalEnzymePanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVfHinEd6TY5iM33U_sA" name="failPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVfXinEd6TY5iM33U_sA" name="gcPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVfninEd6TY5iM33U_sA" name="lowerPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVf3inEd6TY5iM33U_sA" name="nPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVgHinEd6TY5iM33U_sA" name="configIDLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVgXinEd6TY5iM33U_sA" name="configIDField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVgninEd6TY5iM33U_sA" name="addConfigButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVg3inEd6TY5iM33U_sA" name="addConfigPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_newVhHinEd6TY5iM33U_sA" name="isValidSequence" visibility="private">
+        <ownedParameter xmi:id="_newVhXinEd6TY5iM33U_sA" name="seq" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVhninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVh3inEd6TY5iM33U_sA" name="initialize" visibility="private"/>
+      <ownedOperation xmi:id="_newViHinEd6TY5iM33U_sA" name="isEmpty" visibility="private">
+        <ownedParameter xmi:id="_newViXinEd6TY5iM33U_sA" name="field" type="_new8fXinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVininEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVi3inEd6TY5iM33U_sA" name="isDuplicateID" visibility="private">
+        <ownedParameter xmi:id="_newVjHinEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVjXinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVjninEd6TY5iM33U_sA" name="fieldsFilledProperly" visibility="private">
+        <ownedParameter xmi:id="_newVj3inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVkHinEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_newVkXinEd6TY5iM33U_sA" name="num" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVkninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVk3inEd6TY5iM33U_sA" name="getConfigs" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_newVlHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVlXinEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_newVlninEd6TY5iM33U_sA" name="return" type="_new8eninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVl3inEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_newVmHinEd6TY5iM33U_sA" name="clearEnzymeFields" visibility="private"/>
+      <ownedOperation xmi:id="_newVmXinEd6TY5iM33U_sA" name="clearFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_newVmninEd6TY5iM33U_sA" name="SolPickerFrame">
+      <ownedOperation xmi:id="_newVm3inEd6TY5iM33U_sA" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_newVnHinEd6TY5iM33U_sA" name="args" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_newVnXinEd6TY5iM33U_sA" name="AddJobPanel">
+      <generalization xmi:id="_newVnninEd6TY5iM33U_sA" general="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVn3inEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVoHinEd6TY5iM33U_sA" name="queryIdLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVoXinEd6TY5iM33U_sA" name="queryIdField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVoninEd6TY5iM33U_sA" name="configIdLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVo3inEd6TY5iM33U_sA" name="configIdField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVpHinEd6TY5iM33U_sA" name="addJobButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVpXinEd6TY5iM33U_sA" name="labelPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVpninEd6TY5iM33U_sA" name="fieldPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVp3inEd6TY5iM33U_sA" name="jobs" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_newVqHinEd6TY5iM33U_sA" name="getJobs" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_newVqXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVqninEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_newVq3inEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_newVrHinEd6TY5iM33U_sA" name="c" type="_new8eXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVrXinEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_newVrninEd6TY5iM33U_sA" name="return" type="_new8eninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVr3inEd6TY5iM33U_sA" name="fieldsFilledProperly" visibility="private">
+        <ownedParameter xmi:id="_newVsHinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVsXinEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_newVsninEd6TY5iM33U_sA" name="num" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVs3inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVtHinEd6TY5iM33U_sA" name="queryExists" visibility="private">
+        <ownedParameter xmi:id="_newVtXinEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVtninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVt3inEd6TY5iM33U_sA" name="configExists" visibility="private">
+        <ownedParameter xmi:id="_newVuHinEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVuXinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVuninEd6TY5iM33U_sA" name="findQuery" visibility="private">
+        <ownedParameter xmi:id="_newVu3inEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVvHinEd6TY5iM33U_sA" name="return" type="_netSJXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVvXinEd6TY5iM33U_sA" name="findConfig" visibility="private">
+        <ownedParameter xmi:id="_newVvninEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newVv3inEd6TY5iM33U_sA" name="return" type="_nesrCXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newVwHinEd6TY5iM33U_sA" name="clearFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_newVwXinEd6TY5iM33U_sA" name="AddQueryPanel">
+      <generalization xmi:id="_newVwninEd6TY5iM33U_sA" general="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVw3inEd6TY5iM33U_sA" name="cNumLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVxHinEd6TY5iM33U_sA" name="cNumField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVxXinEd6TY5iM33U_sA" name="startLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVxninEd6TY5iM33U_sA" name="startField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVx3inEd6TY5iM33U_sA" name="endLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVyHinEd6TY5iM33U_sA" name="endField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVyXinEd6TY5iM33U_sA" name="idLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVyninEd6TY5iM33U_sA" name="idField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVy3inEd6TY5iM33U_sA" name="lengthLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVzHinEd6TY5iM33U_sA" name="lengthField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVzXinEd6TY5iM33U_sA" name="organismLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVzninEd6TY5iM33U_sA" name="organismField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newVz3inEd6TY5iM33U_sA" name="p5Label" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV0HinEd6TY5iM33U_sA" name="p5Field" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV0XinEd6TY5iM33U_sA" name="p3Label" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV0ninEd6TY5iM33U_sA" name="p3Field" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV03inEd6TY5iM33U_sA" name="domainLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV1HinEd6TY5iM33U_sA" name="domainField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV1XinEd6TY5iM33U_sA" name="distanceLabel" visibility="private" type="_new8fHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV1ninEd6TY5iM33U_sA" name="distanceField" visibility="private" type="_new8fXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV13inEd6TY5iM33U_sA" name="addQueryButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV2HinEd6TY5iM33U_sA" name="removeQueryButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV2XinEd6TY5iM33U_sA" name="clearQueriesButton" visibility="private" type="_new8eHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV2ninEd6TY5iM33U_sA" name="queries" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV23inEd6TY5iM33U_sA" name="qInfoPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV3HinEd6TY5iM33U_sA" name="qButtonsPanel" visibility="private" type="_new8d3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_newV3XinEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_newV3ninEd6TY5iM33U_sA" name="initialize" visibility="private"/>
+      <ownedOperation xmi:id="_newV33inEd6TY5iM33U_sA" name="fieldsFilledCorrectly" visibility="private">
+        <ownedParameter xmi:id="_newV4HinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV4XinEd6TY5iM33U_sA" name="isEmpty" visibility="private">
+        <ownedParameter xmi:id="_newV4ninEd6TY5iM33U_sA" name="field" type="_new8fXinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV43inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV5HinEd6TY5iM33U_sA" name="isValidDomain" visibility="private">
+        <ownedParameter xmi:id="_newV5XinEd6TY5iM33U_sA" name="domain" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV5ninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV53inEd6TY5iM33U_sA" name="isDuplicateID" visibility="private">
+        <ownedParameter xmi:id="_newV6HinEd6TY5iM33U_sA" name="id" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV6XinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV6ninEd6TY5iM33U_sA" name="isValidChromosome" visibility="private">
+        <ownedParameter xmi:id="_newV63inEd6TY5iM33U_sA" name="cNum" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV7HinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV7XinEd6TY5iM33U_sA" name="isValidNumber" visibility="private">
+        <ownedParameter xmi:id="_newV7ninEd6TY5iM33U_sA" name="num" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV73inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV8HinEd6TY5iM33U_sA" name="isValidOrganism" visibility="private">
+        <ownedParameter xmi:id="_newV8XinEd6TY5iM33U_sA" name="organism" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_newV8ninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_newV83inEd6TY5iM33U_sA" name="isUpperCase" visibility="private">
+        <ownedParameter xmi:id="_newV9HinEd6TY5iM33U_sA" name="str" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new8cHinEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8cXinEd6TY5iM33U_sA" name="assignRandomColors" visibility="private"/>
+      <ownedOperation xmi:id="_new8cninEd6TY5iM33U_sA" name="pickRandomColor" visibility="private">
+        <ownedParameter xmi:id="_new8c3inEd6TY5iM33U_sA" name="return" type="_new8eninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8dHinEd6TY5iM33U_sA" name="getQueries" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_new8dXinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8dninEd6TY5iM33U_sA" name="clearQueryFields" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8d3inEd6TY5iM33U_sA" name="JPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8eHinEd6TY5iM33U_sA" name="JButton"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8eXinEd6TY5iM33U_sA" name="JComponent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8eninEd6TY5iM33U_sA" name="Color"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8e3inEd6TY5iM33U_sA" name="JCheckBox"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8fHinEd6TY5iM33U_sA" name="JLabel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8fXinEd6TY5iM33U_sA" name="JTextField"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_new8fninEd6TY5iM33U_sA" name="ucsc">
+    <packagedElement xmi:type="uml:Class" xmi:id="_new8f3inEd6TY5iM33U_sA" name="GetUCSCDna">
+      <generalization xmi:id="_new8gHinEd6TY5iM33U_sA" general="_netSZninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8gXinEd6TY5iM33U_sA" name="query" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8gninEd6TY5iM33U_sA" name="g" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8g3inEd6TY5iM33U_sA" name="db" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8hHinEd6TY5iM33U_sA" name="padding5" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8hXinEd6TY5iM33U_sA" name="padding3" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8hninEd6TY5iM33U_sA" name="maskRepeats" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8h3inEd6TY5iM33U_sA" name="boolShadeRepeats" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8iHinEd6TY5iM33U_sA" name="casing" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8iXinEd6TY5iM33U_sA" name="repMasking" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8ininEd6TY5iM33U_sA" name="revComp" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8i3inEd6TY5iM33U_sA" name="defaults" visibility="protected" type="_new8n3inEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new8jHinEd6TY5iM33U_sA" name="init" visibility="protected"/>
+      <ownedOperation xmi:id="_new8jXinEd6TY5iM33U_sA" name="createURL" visibility="protected"/>
+      <ownedOperation xmi:id="_new8jninEd6TY5iM33U_sA" name="cutHeader" visibility="public">
+        <ownedParameter xmi:id="_new8j3inEd6TY5iM33U_sA" name="fasta" type="_neq17XinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new8kHinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8kXinEd6TY5iM33U_sA" name="getDomain" visibility="public">
+        <ownedParameter xmi:id="_new8kninEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8k3inEd6TY5iM33U_sA" name="setG" visibility="public">
+        <ownedParameter xmi:id="_new8lHinEd6TY5iM33U_sA" name="g" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8lXinEd6TY5iM33U_sA" name="setDatabase" visibility="public">
+        <ownedParameter xmi:id="_new8lninEd6TY5iM33U_sA" name="db" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8l3inEd6TY5iM33U_sA" name="setPadding5" visibility="public">
+        <ownedParameter xmi:id="_new8mHinEd6TY5iM33U_sA" name="padding5" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8mXinEd6TY5iM33U_sA" name="setPadding3" visibility="public">
+        <ownedParameter xmi:id="_new8mninEd6TY5iM33U_sA" name="padding3" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8m3inEd6TY5iM33U_sA" name="setRevComp" visibility="public">
+        <ownedParameter xmi:id="_new8nHinEd6TY5iM33U_sA" name="revComp" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8nXinEd6TY5iM33U_sA" name="getDefaults" visibility="public">
+        <ownedParameter xmi:id="_new8nninEd6TY5iM33U_sA" name="return" type="_new8n3inEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new8n3inEd6TY5iM33U_sA" name="HashMap"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_new8oHinEd6TY5iM33U_sA" name="xmlParser">
+    <packagedElement xmi:type="uml:Class" xmi:id="_new8oXinEd6TY5iM33U_sA" name="DuplicateConfigurationException">
+      <generalization xmi:id="_new8oninEd6TY5iM33U_sA" general="_new9B3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8o3inEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8pHinEd6TY5iM33U_sA" name="configuration" visibility="private" type="_nesrCXinEd6TY5iM33U_sA" association="_new9DninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8pXinEd6TY5iM33U_sA" name="nConfig" visibility="private" type="_new9CHinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new8pninEd6TY5iM33U_sA" name="getID" visibility="public">
+        <ownedParameter xmi:id="_new8p3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8qHinEd6TY5iM33U_sA" name="setNConfig" visibility="public">
+        <ownedParameter xmi:id="_new8qXinEd6TY5iM33U_sA" name="nConfig" type="_new9CHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8qninEd6TY5iM33U_sA" name="getNConfig" visibility="public">
+        <ownedParameter xmi:id="_new8q3inEd6TY5iM33U_sA" name="return" type="_new9CHinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_new8rHinEd6TY5iM33U_sA" name="FilterException">
+      <generalization xmi:id="_new8rXinEd6TY5iM33U_sA" general="_new9B3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8rninEd6TY5iM33U_sA" name="serialVersionUID" visibility="private" type="_neq113inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8r3inEd6TY5iM33U_sA" name="message" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new8sHinEd6TY5iM33U_sA" name="setMessage" visibility="public">
+        <ownedParameter xmi:id="_new8sXinEd6TY5iM33U_sA" name="message" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8sninEd6TY5iM33U_sA" name="message" visibility="public">
+        <ownedParameter xmi:id="_new8s3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_new8tHinEd6TY5iM33U_sA" name="XMLErrorHandler">
+      <ownedAttribute xmi:id="_new8tXinEd6TY5iM33U_sA" name="fatalError" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8tninEd6TY5iM33U_sA" name="warning" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8t3inEd6TY5iM33U_sA" name="error" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new8uHinEd6TY5iM33U_sA" name="error" visibility="public">
+        <ownedParameter xmi:id="_new8uXinEd6TY5iM33U_sA" name="exception" type="_new9CXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8uninEd6TY5iM33U_sA" name="fatalError" visibility="public">
+        <ownedParameter xmi:id="_new8u3inEd6TY5iM33U_sA" name="exception" type="_new9CXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8vHinEd6TY5iM33U_sA" name="warning" visibility="public">
+        <ownedParameter xmi:id="_new8vXinEd6TY5iM33U_sA" name="exception" type="_new9CXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8vninEd6TY5iM33U_sA" name="getFatalErrorMessage" visibility="public">
+        <ownedParameter xmi:id="_new8v3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8wHinEd6TY5iM33U_sA" name="getError" visibility="public">
+        <ownedParameter xmi:id="_new8wXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8wninEd6TY5iM33U_sA" name="getWarning" visibility="public">
+        <ownedParameter xmi:id="_new8w3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_new8xHinEd6TY5iM33U_sA" name="XMLParser">
+      <ownedAttribute xmi:id="_new8xXinEd6TY5iM33U_sA" name="dbf" type="_new9CninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8xninEd6TY5iM33U_sA" name="nConfigs" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8x3inEd6TY5iM33U_sA" name="nJobs" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8yHinEd6TY5iM33U_sA" name="nQueries" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8yXinEd6TY5iM33U_sA" name="dNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8yninEd6TY5iM33U_sA" name="olNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8y3inEd6TY5iM33U_sA" name="oldNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8zHinEd6TY5iM33U_sA" name="orgNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8zXinEd6TY5iM33U_sA" name="chrNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8zninEd6TY5iM33U_sA" name="startNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new8z3inEd6TY5iM33U_sA" name="endNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new80HinEd6TY5iM33U_sA" name="p5Node" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new80XinEd6TY5iM33U_sA" name="p3Node" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new80ninEd6TY5iM33U_sA" name="olcNode" visibility="protected" type="_new9C3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new803inEd6TY5iM33U_sA" name="oligoLengths" visibility="protected" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new81HinEd6TY5iM33U_sA" name="oligoDistances" visibility="protected" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new81XinEd6TY5iM33U_sA" name="oligoCount" visibility="protected" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new81ninEd6TY5iM33U_sA" name="xeh" visibility="protected" type="_new8tHinEd6TY5iM33U_sA" association="_new9EHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new813inEd6TY5iM33U_sA" name="filterExceptions" visibility="protected" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new82HinEd6TY5iM33U_sA" name="duplicateConfigs" visibility="protected" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new82XinEd6TY5iM33U_sA" name="config" visibility="private" type="_nesrCXinEd6TY5iM33U_sA" association="_new9EninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new82ninEd6TY5iM33U_sA" name="queries" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new823inEd6TY5iM33U_sA" name="configs" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new83HinEd6TY5iM33U_sA" name="jobs" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new83XinEd6TY5iM33U_sA" name="xmlFile" visibility="private" type="_new9DHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new83ninEd6TY5iM33U_sA" name="SCHEMA_LANG" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new833inEd6TY5iM33U_sA" name="SCHEMA_FILE" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new84HinEd6TY5iM33U_sA" name="parse" visibility="public"/>
+      <ownedOperation xmi:id="_new84XinEd6TY5iM33U_sA" name="validateWithSchema" visibility="private"/>
+      <ownedOperation xmi:id="_new84ninEd6TY5iM33U_sA" name="setElementLists" visibility="private">
+        <ownedParameter xmi:id="_new843inEd6TY5iM33U_sA" name="doc" type="_new9DXinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new85HinEd6TY5iM33U_sA" name="parseQueries" visibility="private"/>
+      <ownedOperation xmi:id="_new85XinEd6TY5iM33U_sA" name="checkDomain" visibility="private">
+        <ownedParameter xmi:id="_new85ninEd6TY5iM33U_sA" name="nDomain" type="_new9CHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new853inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new86HinEd6TY5iM33U_sA" name="parseConfiguration" visibility="private">
+        <ownedParameter xmi:id="_new86XinEd6TY5iM33U_sA" name="n" type="_new9CHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new86ninEd6TY5iM33U_sA" name="parseFilter" visibility="private">
+        <ownedParameter xmi:id="_new863inEd6TY5iM33U_sA" name="n" type="_new9CHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new87HinEd6TY5iM33U_sA" name="return" type="_nerdDHinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new87XinEd6TY5iM33U_sA" name="parseFilterParameter" visibility="private">
+        <ownedParameter xmi:id="_new87ninEd6TY5iM33U_sA" name="nParams" type="_new9C3inEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new873inEd6TY5iM33U_sA" name="return" type="_new8n3inEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new88HinEd6TY5iM33U_sA" name="parseEnzymes" visibility="private">
+        <ownedParameter xmi:id="_new88XinEd6TY5iM33U_sA" name="hm" type="_new8n3inEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new88ninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new883inEd6TY5iM33U_sA" name="parseJob" visibility="public">
+        <ownedParameter xmi:id="_new89HinEd6TY5iM33U_sA" name="n" type="_new9CHinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new89XinEd6TY5iM33U_sA" name="isQueryUnique" visibility="private">
+        <ownedParameter xmi:id="_new89ninEd6TY5iM33U_sA" name="q" type="_netSJXinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new893inEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8-HinEd6TY5iM33U_sA" name="isConfigurationUnique" visibility="private">
+        <ownedParameter xmi:id="_new8-XinEd6TY5iM33U_sA" name="c" type="_nesrCXinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_new8-ninEd6TY5iM33U_sA" name="return" type="_neq10XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8-3inEd6TY5iM33U_sA" name="getQueries" visibility="public">
+        <ownedParameter xmi:id="_new8_HinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8_XinEd6TY5iM33U_sA" name="getJobs" visibility="public">
+        <ownedParameter xmi:id="_new8_ninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new8_3inEd6TY5iM33U_sA" name="getConfigurations" visibility="public">
+        <ownedParameter xmi:id="_new9AHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new9AXinEd6TY5iM33U_sA" name="getOligoCount" visibility="public">
+        <ownedParameter xmi:id="_new9AninEd6TY5iM33U_sA" name="return" type="_neq11ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new9A3inEd6TY5iM33U_sA" name="getFilterExceptions" visibility="public">
+        <ownedParameter xmi:id="_new9BHinEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_new9BXinEd6TY5iM33U_sA" name="getDuplicateConfigurationExceptions" visibility="public">
+        <ownedParameter xmi:id="_new9BninEd6TY5iM33U_sA" name="return" type="_neq17ninEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9B3inEd6TY5iM33U_sA" name="Exception"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9CHinEd6TY5iM33U_sA" name="Node"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9CXinEd6TY5iM33U_sA" name="SAXParseException"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9CninEd6TY5iM33U_sA" name="DocumentBuilderFactory"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9C3inEd6TY5iM33U_sA" name="NodeList"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9DHinEd6TY5iM33U_sA" name="File"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_new9DXinEd6TY5iM33U_sA" name="Document"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_new9DninEd6TY5iM33U_sA" memberEnd="_new8pHinEd6TY5iM33U_sA _new9D3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_new9D3inEd6TY5iM33U_sA" name="target" type="_new8oXinEd6TY5iM33U_sA" association="_new9DninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_new9EHinEd6TY5iM33U_sA" memberEnd="_new81ninEd6TY5iM33U_sA _new9EXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_new9EXinEd6TY5iM33U_sA" name="target" type="_new8xHinEd6TY5iM33U_sA" association="_new9EHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_new9EninEd6TY5iM33U_sA" memberEnd="_new82XinEd6TY5iM33U_sA _new9E3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_new9E3inEd6TY5iM33U_sA" name="target" type="_new8xHinEd6TY5iM33U_sA" association="_new9EninEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_new9FHinEd6TY5iM33U_sA" name="ensemblTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_new9FXinEd6TY5iM33U_sA" name="GetEnsembleDnaTest">
+      <generalization xmi:id="_new9FninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_new9F3inEd6TY5iM33U_sA" name="ensemble" visibility="private" type="_neq19HinEd6TY5iM33U_sA" association="_nexjhninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_new9GHinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjgHinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjgXinEd6TY5iM33U_sA" name="testEnsemble" visibility="public"/>
+      <ownedOperation xmi:id="_nexjgninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nexjg3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nexjhHinEd6TY5iM33U_sA" name="TestCase"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nexjhXinEd6TY5iM33U_sA" name="Test"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nexjhninEd6TY5iM33U_sA" memberEnd="_new9F3inEd6TY5iM33U_sA _nexjh3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_nexjh3inEd6TY5iM33U_sA" name="target" type="_new9FXinEd6TY5iM33U_sA" association="_nexjhninEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nexjiHinEd6TY5iM33U_sA" name="filtersTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nexjiXinEd6TY5iM33U_sA" name="EnzymeFilterTest">
+      <generalization xmi:id="_nexjininEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexji3inEd6TY5iM33U_sA" name="eFilter" visibility="private" type="_nerdG3inEd6TY5iM33U_sA" association="_neyKoninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjjHinEd6TY5iM33U_sA" name="enzymes" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjjXinEd6TY5iM33U_sA" name="oligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nexjjninEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjj3inEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjkHinEd6TY5iM33U_sA" name="testEnzymeFilter" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nexjkXinEd6TY5iM33U_sA" name="LowerCaseFilterTest">
+      <generalization xmi:id="_nexjkninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjk3inEd6TY5iM33U_sA" name="lFilter" visibility="private" type="_neq2I3inEd6TY5iM33U_sA" association="_neyKpHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjlHinEd6TY5iM33U_sA" name="oligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nexjlXinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjlninEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_nexjl3inEd6TY5iM33U_sA" name="testLowerCaseFilter" visibility="public"/>
+      <ownedOperation xmi:id="_nexjmHinEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nexjmXinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nexjmninEd6TY5iM33U_sA" name="GCFilterTest">
+      <generalization xmi:id="_nexjm3inEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjnHinEd6TY5iM33U_sA" name="gcFilter" visibility="private" type="_nerc63inEd6TY5iM33U_sA" association="_neyKpninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_nexjnXinEd6TY5iM33U_sA" name="oligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_nexjnninEd6TY5iM33U_sA" name="setUpBeforeClass" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_nexjn3inEd6TY5iM33U_sA" name="tearDownAfterClass" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_nexjoHinEd6TY5iM33U_sA" name="setUp" visibility="public"/>
+      <ownedOperation xmi:id="_nexjoXinEd6TY5iM33U_sA" name="tearDown" visibility="public"/>
+      <ownedOperation xmi:id="_nexjoninEd6TY5iM33U_sA" name="testGCFilter" visibility="public"/>
+      <ownedOperation xmi:id="_nexjo3inEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nexjpHinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKkHinEd6TY5iM33U_sA" name="NCountFilterTest">
+      <generalization xmi:id="_neyKkXinEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKkninEd6TY5iM33U_sA" name="nFilter" visibility="private" type="_nerc_HinEd6TY5iM33U_sA" association="_neyKqHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKk3inEd6TY5iM33U_sA" name="oligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKlHinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKlXinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKlninEd6TY5iM33U_sA" name="testNFilter" visibility="public"/>
+      <ownedOperation xmi:id="_neyKl3inEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKmHinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKmXinEd6TY5iM33U_sA" name="FailScoreFilterTest">
+      <generalization xmi:id="_neyKmninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKm3inEd6TY5iM33U_sA" name="fFilter" visibility="private" type="_neq1_XinEd6TY5iM33U_sA" association="_neyKqninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKnHinEd6TY5iM33U_sA" name="oligos" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKnXinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKnninEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKn3inEd6TY5iM33U_sA" name="testFailScoreFilter" visibility="public"/>
+      <ownedOperation xmi:id="_neyKoHinEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKoXinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyKoninEd6TY5iM33U_sA" memberEnd="_nexji3inEd6TY5iM33U_sA _neyKo3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyKo3inEd6TY5iM33U_sA" name="target" type="_nexjiXinEd6TY5iM33U_sA" association="_neyKoninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyKpHinEd6TY5iM33U_sA" memberEnd="_nexjk3inEd6TY5iM33U_sA _neyKpXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyKpXinEd6TY5iM33U_sA" name="target" type="_nexjkXinEd6TY5iM33U_sA" association="_neyKpHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyKpninEd6TY5iM33U_sA" memberEnd="_nexjnHinEd6TY5iM33U_sA _neyKp3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyKp3inEd6TY5iM33U_sA" name="target" type="_nexjmninEd6TY5iM33U_sA" association="_neyKpninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyKqHinEd6TY5iM33U_sA" memberEnd="_neyKkninEd6TY5iM33U_sA _neyKqXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyKqXinEd6TY5iM33U_sA" name="target" type="_neyKkHinEd6TY5iM33U_sA" association="_neyKqHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyKqninEd6TY5iM33U_sA" memberEnd="_neyKm3inEd6TY5iM33U_sA _neyKq3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyKq3inEd6TY5iM33U_sA" name="target" type="_neyKmXinEd6TY5iM33U_sA" association="_neyKqninEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neyKrHinEd6TY5iM33U_sA" name="jobTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKrXinEd6TY5iM33U_sA" name="ConfigurationTest">
+      <generalization xmi:id="_neyKrninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKr3inEd6TY5iM33U_sA" name="config" visibility="private" type="_nesrCXinEd6TY5iM33U_sA" association="_neyK2XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKsHinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKsXinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKsninEd6TY5iM33U_sA" name="testConfig" visibility="public"/>
+      <ownedOperation xmi:id="_neyKs3inEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKtHinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKtXinEd6TY5iM33U_sA" name="QueryTest">
+      <generalization xmi:id="_neyKtninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKt3inEd6TY5iM33U_sA" name="q1" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyK23inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKuHinEd6TY5iM33U_sA" name="q2" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyK3XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKuXinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKuninEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKu3inEd6TY5iM33U_sA" name="testQuery" visibility="public"/>
+      <ownedOperation xmi:id="_neyKvHinEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKvXinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKvninEd6TY5iM33U_sA" name="OligoTest">
+      <generalization xmi:id="_neyKv3inEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKwHinEd6TY5iM33U_sA" name="o" visibility="private" type="_nesrIHinEd6TY5iM33U_sA" association="_neyK33inEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKwXinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKwninEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyKw3inEd6TY5iM33U_sA" name="testOligo" visibility="public"/>
+      <ownedOperation xmi:id="_neyKxHinEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKxXinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKxninEd6TY5iM33U_sA" name="JobTest">
+      <generalization xmi:id="_neyKx3inEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyKyHinEd6TY5iM33U_sA" name="j" visibility="private" type="_nesEJ3inEd6TY5iM33U_sA" association="_neyK4XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyKyXinEd6TY5iM33U_sA" name="setUp" visibility="public"/>
+      <ownedOperation xmi:id="_neyKyninEd6TY5iM33U_sA" name="tearDown" visibility="public"/>
+      <ownedOperation xmi:id="_neyKy3inEd6TY5iM33U_sA" name="testJob" visibility="public"/>
+      <ownedOperation xmi:id="_neyKzHinEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyKzXinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyKzninEd6TY5iM33U_sA" name="ParseSequenceTest">
+      <generalization xmi:id="_neyKz3inEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK0HinEd6TY5iM33U_sA" name="p1" visibility="private" type="_nesrGninEd6TY5iM33U_sA" association="_neyK43inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK0XinEd6TY5iM33U_sA" name="p2" visibility="private" type="_nesrGninEd6TY5iM33U_sA" association="_neyK5XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK0ninEd6TY5iM33U_sA" name="o1" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK03inEd6TY5iM33U_sA" name="o2" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyK1HinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyK1XinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyK1ninEd6TY5iM33U_sA" name="testParseSequence" visibility="public"/>
+      <ownedOperation xmi:id="_neyK13inEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyK2HinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK2XinEd6TY5iM33U_sA" memberEnd="_neyKr3inEd6TY5iM33U_sA _neyK2ninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK2ninEd6TY5iM33U_sA" name="target" type="_neyKrXinEd6TY5iM33U_sA" association="_neyK2XinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK23inEd6TY5iM33U_sA" memberEnd="_neyKt3inEd6TY5iM33U_sA _neyK3HinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK3HinEd6TY5iM33U_sA" name="target" type="_neyKtXinEd6TY5iM33U_sA" association="_neyK23inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK3XinEd6TY5iM33U_sA" memberEnd="_neyKuHinEd6TY5iM33U_sA _neyK3ninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK3ninEd6TY5iM33U_sA" name="target" type="_neyKtXinEd6TY5iM33U_sA" association="_neyK3XinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK33inEd6TY5iM33U_sA" memberEnd="_neyKwHinEd6TY5iM33U_sA _neyK4HinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK4HinEd6TY5iM33U_sA" name="target" type="_neyKvninEd6TY5iM33U_sA" association="_neyK33inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK4XinEd6TY5iM33U_sA" memberEnd="_neyKyHinEd6TY5iM33U_sA _neyK4ninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK4ninEd6TY5iM33U_sA" name="target" type="_neyKxninEd6TY5iM33U_sA" association="_neyK4XinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK43inEd6TY5iM33U_sA" memberEnd="_neyK0HinEd6TY5iM33U_sA _neyK5HinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK5HinEd6TY5iM33U_sA" name="target" type="_neyKzninEd6TY5iM33U_sA" association="_neyK43inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyK5XinEd6TY5iM33U_sA" memberEnd="_neyK0XinEd6TY5iM33U_sA _neyK5ninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyK5ninEd6TY5iM33U_sA" name="target" type="_neyKzninEd6TY5iM33U_sA" association="_neyK5XinEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neyK53inEd6TY5iM33U_sA" name="queryFactoryTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyK6HinEd6TY5iM33U_sA" name="QueryFactoryTest">
+      <generalization xmi:id="_neyK6XinEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK6ninEd6TY5iM33U_sA" name="qf" visibility="private" type="_netSEXinEd6TY5iM33U_sA" association="_neyLGHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK63inEd6TY5iM33U_sA" name="q" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLGninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK7HinEd6TY5iM33U_sA" name="q1" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLHHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK7XinEd6TY5iM33U_sA" name="q2" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLHninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK7ninEd6TY5iM33U_sA" name="q3" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLIHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK73inEd6TY5iM33U_sA" name="q4" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLIninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK8HinEd6TY5iM33U_sA" name="queries" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK8XinEd6TY5iM33U_sA" name="chr1" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK8ninEd6TY5iM33U_sA" name="chr2" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK83inEd6TY5iM33U_sA" name="chr3" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK9HinEd6TY5iM33U_sA" name="chr4" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK9XinEd6TY5iM33U_sA" name="chr5" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK9ninEd6TY5iM33U_sA" name="s1" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK93inEd6TY5iM33U_sA" name="s2" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK-HinEd6TY5iM33U_sA" name="s3" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK-XinEd6TY5iM33U_sA" name="s4" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK-ninEd6TY5iM33U_sA" name="s5" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK-3inEd6TY5iM33U_sA" name="e1" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK_HinEd6TY5iM33U_sA" name="e2" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK_XinEd6TY5iM33U_sA" name="e3" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK_ninEd6TY5iM33U_sA" name="e4" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyK_3inEd6TY5iM33U_sA" name="e5" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLAHinEd6TY5iM33U_sA" name="r" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyLAXinEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLAninEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLA3inEd6TY5iM33U_sA" name="testSortQueries" visibility="public"/>
+      <ownedOperation xmi:id="_neyLBHinEd6TY5iM33U_sA" name="testJoinQueries" visibility="public"/>
+      <ownedOperation xmi:id="_neyLBXinEd6TY5iM33U_sA" name="testSeparateSequenceToQuery" visibility="public"/>
+      <ownedOperation xmi:id="_neyLBninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyLB3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyLCHinEd6TY5iM33U_sA" name="RangeTest">
+      <generalization xmi:id="_neyLCXinEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLCninEd6TY5iM33U_sA" name="cq" visibility="public" type="_nesD_3inEd6TY5iM33U_sA" association="_neyLJHinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyLC3inEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLDHinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLDXinEd6TY5iM33U_sA" name="testRange" visibility="public"/>
+      <ownedOperation xmi:id="_neyLDninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyLD3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyLEHinEd6TY5iM33U_sA" name="QueryTest">
+      <generalization xmi:id="_neyLEXinEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLEninEd6TY5iM33U_sA" name="cr" visibility="private" type="_netSJXinEd6TY5iM33U_sA" association="_neyLJninEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyLE3inEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLFHinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLFXinEd6TY5iM33U_sA" name="testQuery" visibility="public"/>
+      <ownedOperation xmi:id="_neyLFninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyLF3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLGHinEd6TY5iM33U_sA" memberEnd="_neyK6ninEd6TY5iM33U_sA _neyLGXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLGXinEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLGHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLGninEd6TY5iM33U_sA" memberEnd="_neyK63inEd6TY5iM33U_sA _neyLG3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLG3inEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLGninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLHHinEd6TY5iM33U_sA" memberEnd="_neyK7HinEd6TY5iM33U_sA _neyLHXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLHXinEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLHHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLHninEd6TY5iM33U_sA" memberEnd="_neyK7XinEd6TY5iM33U_sA _neyLH3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLH3inEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLHninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLIHinEd6TY5iM33U_sA" memberEnd="_neyK7ninEd6TY5iM33U_sA _neyLIXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLIXinEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLIHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLIninEd6TY5iM33U_sA" memberEnd="_neyK73inEd6TY5iM33U_sA _neyLI3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLI3inEd6TY5iM33U_sA" name="target" type="_neyK6HinEd6TY5iM33U_sA" association="_neyLIninEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLJHinEd6TY5iM33U_sA" memberEnd="_neyLCninEd6TY5iM33U_sA _neyLJXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLJXinEd6TY5iM33U_sA" name="target" type="_neyLCHinEd6TY5iM33U_sA" association="_neyLJHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyLJninEd6TY5iM33U_sA" memberEnd="_neyLEninEd6TY5iM33U_sA _neyLJ3inEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyLJ3inEd6TY5iM33U_sA" name="target" type="_neyLEHinEd6TY5iM33U_sA" association="_neyLJninEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neyLKHinEd6TY5iM33U_sA" name="serverTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyLKXinEd6TY5iM33U_sA" name="GetRequestTest">
+      <generalization xmi:id="_neyLKninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyLK3inEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLLHinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyLLXinEd6TY5iM33U_sA" name="testSendGetRequest" visibility="public"/>
+      <ownedOperation xmi:id="_neyLLninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyLL3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neyLMHinEd6TY5iM33U_sA" name="ucscTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyLMXinEd6TY5iM33U_sA" name="GetUCSCDnaTest">
+      <generalization xmi:id="_neyLMninEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLM3inEd6TY5iM33U_sA" name="test" type="_new8n3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLNHinEd6TY5iM33U_sA" name="gr" visibility="private" type="_netSYHinEd6TY5iM33U_sA" association="_neyxrXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLNXinEd6TY5iM33U_sA" name="gt" visibility="private" type="_new8f3inEd6TY5iM33U_sA" association="_neyxr3inEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLNninEd6TY5iM33U_sA" name="c" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLN3inEd6TY5iM33U_sA" name="length" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLOHinEd6TY5iM33U_sA" name="padding3" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLOXinEd6TY5iM33U_sA" name="padding5" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLOninEd6TY5iM33U_sA" name="organism" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLO3inEd6TY5iM33U_sA" name="minD" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLPHinEd6TY5iM33U_sA" name="id" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLPXinEd6TY5iM33U_sA" name="cr" visibility="private" type="_nesrCXinEd6TY5iM33U_sA" association="_neyxsXinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLPninEd6TY5iM33U_sA" name="query" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLP3inEd6TY5iM33U_sA" name="g" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyLQHinEd6TY5iM33U_sA" name="db" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxoHinEd6TY5iM33U_sA" name="maskRepeats" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxoXinEd6TY5iM33U_sA" name="boolShadeRepeats" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxoninEd6TY5iM33U_sA" name="casing" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxo3inEd6TY5iM33U_sA" name="repMasking" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxpHinEd6TY5iM33U_sA" name="revComp" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxpXinEd6TY5iM33U_sA" name="l" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxpninEd6TY5iM33U_sA" name="r" visibility="protected" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyxp3inEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyxqHinEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyxqXinEd6TY5iM33U_sA" name="testCreateUrl" visibility="public"/>
+      <ownedOperation xmi:id="_neyxqninEd6TY5iM33U_sA" name="testIsChromosomeValid" visibility="public"/>
+      <ownedOperation xmi:id="_neyxq3inEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyxrHinEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyxrXinEd6TY5iM33U_sA" memberEnd="_neyLNHinEd6TY5iM33U_sA _neyxrninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyxrninEd6TY5iM33U_sA" name="target" type="_neyLMXinEd6TY5iM33U_sA" association="_neyxrXinEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyxr3inEd6TY5iM33U_sA" memberEnd="_neyLNXinEd6TY5iM33U_sA _neyxsHinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyxsHinEd6TY5iM33U_sA" name="target" type="_neyLMXinEd6TY5iM33U_sA" association="_neyxr3inEd6TY5iM33U_sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyxsXinEd6TY5iM33U_sA" memberEnd="_neyLPXinEd6TY5iM33U_sA _neyxsninEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyxsninEd6TY5iM33U_sA" name="target" type="_neyLMXinEd6TY5iM33U_sA" association="_neyxsXinEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_neyxs3inEd6TY5iM33U_sA" name="xmlTest">
+    <packagedElement xmi:type="uml:Class" xmi:id="_neyxtHinEd6TY5iM33U_sA" name="XMLParserTest">
+      <generalization xmi:id="_neyxtXinEd6TY5iM33U_sA" general="_nexjhHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxtninEd6TY5iM33U_sA" name="x" visibility="private" type="_new8xHinEd6TY5iM33U_sA" association="_neyxyHinEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxt3inEd6TY5iM33U_sA" name="test" visibility="private" type="_neq11ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxuHinEd6TY5iM33U_sA" name="testFiles" visibility="private" type="_neq17ninEd6TY5iM33U_sA"/>
+      <ownedAttribute xmi:id="_neyxuXinEd6TY5iM33U_sA" name="HEADER" visibility="private" type="_neq17XinEd6TY5iM33U_sA"/>
+      <ownedOperation xmi:id="_neyxuninEd6TY5iM33U_sA" name="setUp" visibility="protected"/>
+      <ownedOperation xmi:id="_neyxu3inEd6TY5iM33U_sA" name="tearDown" visibility="protected"/>
+      <ownedOperation xmi:id="_neyxvHinEd6TY5iM33U_sA" name="test1" visibility="public"/>
+      <ownedOperation xmi:id="_neyxvXinEd6TY5iM33U_sA" name="test2" visibility="public"/>
+      <ownedOperation xmi:id="_neyxvninEd6TY5iM33U_sA" name="test3" visibility="public"/>
+      <ownedOperation xmi:id="_neyxv3inEd6TY5iM33U_sA" name="readTestFile" visibility="public">
+        <ownedParameter xmi:id="_neyxwHinEd6TY5iM33U_sA" name="f" type="_new9DHinEd6TY5iM33U_sA"/>
+        <ownedParameter xmi:id="_neyxwXinEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neyxwninEd6TY5iM33U_sA" name="readObjects" visibility="public">
+        <ownedParameter xmi:id="_neyxw3inEd6TY5iM33U_sA" name="return" type="_neq17XinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neyxxHinEd6TY5iM33U_sA" name="addTestFile" visibility="public">
+        <ownedParameter xmi:id="_neyxxXinEd6TY5iM33U_sA" name="file" type="_neq17XinEd6TY5iM33U_sA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_neyxxninEd6TY5iM33U_sA" name="suite" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_neyxx3inEd6TY5iM33U_sA" name="return" type="_nexjhXinEd6TY5iM33U_sA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_neyxyHinEd6TY5iM33U_sA" memberEnd="_neyxtninEd6TY5iM33U_sA _neyxyXinEd6TY5iM33U_sA">
+      <ownedEnd xmi:id="_neyxyXinEd6TY5iM33U_sA" name="target" type="_neyxtHinEd6TY5iM33U_sA" association="_neyxyHinEd6TY5iM33U_sA"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
